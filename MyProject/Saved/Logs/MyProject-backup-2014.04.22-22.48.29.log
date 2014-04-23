@@ -1,0 +1,770 @@
+Log file open, 04/22/14 21:05:22
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.0.2-2034640+++depot+UE4-Releases+4.0
+LogInit: Compiled (64-bit): Mar 27 2014 09:55:26
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.0
+LogInit: Command line: 
+LogInit: Base directory: U:/Program Files/Unreal Engine/4.0/Engine/Binaries/Win64/
+[2014.04.23-02.05.22:716][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.04.23-02.05.22:742][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.04.23-02.05.22:750][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.04.23-02.05.22:759][  0]LogInit: Object subsystem initialized
+[2014.04.23-02.05.22:761][  0]LogInit: Selected Device Profile: [Windows]
+[2014.04.23-02.05.22:761][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.04.23-02.05.22:765][  0]LogInit: Computer: IKEKUDEYG-PC
+[2014.04.23-02.05.22:765][  0]LogInit: User: Ikekudeyg
+[2014.04.23-02.05.22:792][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.04.23-02.05.22:792][  0]LogInit: High frequency timer resolution =3.037558 MHz
+[2014.04.23-02.05.22:792][  0]LogInit: Memory total: Physical=8.0GB (8GB approx) Pagefile=8184.0GB Virtual=8192.0GB
+[2014.04.23-02.05.22:845][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.04.23-02.05.22:845][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory
+[2014.04.23-02.05.23:030][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.04.23-02.05.23:043][  0]LogD3D11RHI: Async texture creation enabled
+[2014.04.23-02.05.23:186][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-02.05.23:213][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.04.23-02.05.23:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.04.23-02.05.24:116][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.23-02.05.24:207][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.23-02.05.24:241][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.04.23-02.05.24:344][  0]LogDerivedDataCache: Loaded boot cache 0.10s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.23-02.05.24:344][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc
+[2014.04.23-02.05.24:375][  0]LogDerivedDataCache:Display: Pak cache opened for reading C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp.
+[2014.04.23-02.05.24:381][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.04.23-02.05.24:392][  0]LogDerivedDataCache: Using Local data cache path C:/ProgramData/Epic/Engine/DerivedDataCache: Writable
+[2014.04.23-02.05.24:433][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperEditor.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.23-02.05.24:434][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperRuntime.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.23-02.05.24:594][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.04.23-02.05.24:594][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.04.23-02.05.24:894][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.04.23-02.05.24:895][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.04.23-02.05.24:895][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.04.23-02.05.24:895][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.04.23-02.05.25:623][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.04.23-02.05.25:703][  0]SourceControl: Info Source control is disabled
+[2014.04.23-02.05.25:703][  0]SourceControl: Info Source control is disabled
+[2014.04.23-02.05.25:708][  0]SourceControl: Info Source control is disabled
+[2014.04.23-02.05.25:804][  0]BlueprintLog: New page: Editor Load
+[2014.04.23-02.05.25:848][  0]LogObj: 18309 objects as part of root set at end of initial load.
+[2014.04.23-02.05.25:848][  0]LogUObjectAllocator: 3622464 out of 0 bytes used by permanent object pool.
+[2014.04.23-02.05.26:095][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-02.05.26:095][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-02.05.26:095][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-02.05.26:095][  0]LogEngine: Initializing Engine...
+[2014.04.23-02.05.26:242][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.04.23-02.05.26:252][  0]LogInit: FAudioDevice initialized.
+[2014.04.23-02.05.26:289][  0]LogDerivedDataCache: Saved boot cache 0.03s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.23-02.05.26:299][  0]LogInit: Texture streaming: Enabled
+[2014.04.23-02.05.26:315][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.04.23-02.05.26:315][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.0.2-2034640+++depot+UE4-Releases+4.0
+[2014.04.23-02.05.26:319][  0]LogAnalytics: SetUserId 41c2970e0d96e3ee2dc9913591dc455f
+[2014.04.23-02.05.26:319][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.04.23-02.05.26:523][  0]LogInit: Transaction tracking system initialized
+[2014.04.23-02.05.26:634][  0]LogAssetRegistry: FAssetRegistry took 0.010047 seconds to start up
+[2014.04.23-02.05.26:799][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.23-02.05.26:804][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.23-02.05.26:857][  0]LogConsoleResponse:Display: 
+[2014.04.23-02.05.27:102][  0]SourceControl: Info Source control is disabled
+[2014.04.23-02.05.27:102][  0]Cmd: MAP LOAD FILE="C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.23-02.05.27:172][  0]LightingResults: New page: Lighting Build
+[2014.04.23-02.05.27:178][  0]MapCheck: New page: Map Check
+[2014.04.23-02.05.27:178][  0]LightingResults: New page: Lighting Build
+[2014.04.23-02.05.27:198][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019693600
+[2014.04.23-02.05.28:823][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.23-02.05.28:833][  0]Cmd: MAP CHECKDEP
+[2014.04.23-02.05.28:833][  0]MapCheck: New page: Example_Map - Apr 22, 2014, 4:05:28 PM
+[2014.04.23-02.05.28:861][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [27.252ms] ==========
+[2014.04.23-02.05.28:861][  0]LogFileHelpers: Loading map 'Example_Map' took 1.759
+[2014.04.23-02.05.28:953][  0]LogCollectionManager: Loaded 0 collections in 0.001045 seconds
+[2014.04.23-02.05.29:121][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.04.23-02.05.29:122][  0]Cmd: MODE PLACEMENT
+[2014.04.23-02.05.50:456][  0]LogRenderer:Warning: Reallocating scene render targets to support 848x736.
+[2014.04.23-02.05.50:970][  0]LogLinker:Warning: Can't resolve asset name
+[2014.04.23-02.05.51:022][  0]LogLoad: Full Startup: 29.80 seconds (BP compile: 0.10 seconds)
+[2014.04.23-02.05.51:045][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.04.23-02.05.51:492][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>8A11C0AAC72CFD07</RequestId><HostId>sDNO8JGuGRSw1I7CsCwOS2pKf1mrf3Sb5x9MW1imssH7pK6wLXIqyb+qCBgMppcG</HostId></Error>
+[2014.04.23-02.05.51:506][  2]LogAssetRegistry: Asset discovery search completed in 24.882765 seconds
+[2014.04.23-02.05.51:654][  3]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>5C95ED2D28AED0B8</RequestId><HostId>OucTM7NLUO8E4DcgAjiADYUBWaVeMsAVKYveq6Ouo7nG42oku0xz2NcYDjG+FbYxKEotnWJKIFs=</HostId></Error>
+[2014.04.23-02.05.51:755][  7]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>D5FF71BEADD75C19</RequestId><HostId>Km6VVRcffVTAxsk8dIPV8aw/8LGPBypf0YRyooTCQGbzVQCxCW3eaz2bk818xSfxmZQB3/aclY4=</HostId></Error>
+[2014.04.23-02.06.07:454][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DDE1760
+[2014.04.23-02.06.07:460][408]Cmd: MAP LOAD FILE="C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/fgf.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.23-02.06.07:460][408]LightingResults: New page: Lighting Build
+[2014.04.23-02.06.07:472][408]LoadErrors: New page: Loading map: fgf.umap
+[2014.04.23-02.06.07:472][408]MapCheck: New page: Map Check
+[2014.04.23-02.06.07:473][408]LightingResults: New page: Lighting Build
+[2014.04.23-02.06.07:798][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E27F740
+[2014.04.23-02.06.09:774][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.23-02.06.09:805][408]Cmd: MAP CHECKDEP
+[2014.04.23-02.06.09:805][408]MapCheck: New page: fgf - Apr 22, 2014, 4:06:09 PM
+[2014.04.23-02.06.09:834][408]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [29.228ms] ==========
+[2014.04.23-02.06.09:835][408]LogFileHelpers: Loading map 'fgf' took 2.375
+[2014.04.23-02.06.10:661][409]Cmd: UpdateLandscapeEditorData -warnings
+[2014.04.23-02.06.10:702][409]Cmd: UpdateLandscapeEditorData
+[2014.04.23-02.06.16:365][667]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2014.04.23-02.07.23:598][244]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.07.24:716][297]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.07.25:547][336]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.07.26:085][361]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.07.27:510][427]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.07.27:641][431]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2014.04.23-02.08.04:858][ 88]Cmd: MODE PLACEMENT
+[2014.04.23-02.08.04:928][ 89]Cmd: UpdateLandscapeHoleCollision
+[2014.04.23-02.08.06:020][137]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.08.06:794][170]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.08.09:368][289]Cmd: MODE PLACEMENT
+[2014.04.23-02.08.16:356][582]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.08.21:730][823]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.08.21:874][827]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2014.04.23-02.08.22:131][840]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.08.23:492][899]LogEditorViewport: Clicking Background
+[2014.04.23-02.08.32:320][289]Cmd: MODE PLACEMENT
+[2014.04.23-02.21.10:348][916]LogSavePackage: Save=853.400330ms
+[2014.04.23-02.21.10:348][916]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//fgf_Auto1FEE0FA1740D08D9C0405D3A311CF72DF.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/fgf_Auto1.umap'
+[2014.04.23-02.21.10:356][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/fgf' took 1.083
+[2014.04.23-02.21.10:356][916]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.083
+[2014.04.23-02.21.45:364][497]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.47:468][588]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.48:356][625]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.49:136][660]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.53:364][854]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.53:866][876]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.21.54:039][882]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape1)
+[2014.04.23-02.31.10:557][760]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2014.04.23-02.31.10:593][760]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2014.04.23-02.31.10:626][760]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2014.04.23-02.31.10:739][760]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.04.23-02.31.10:771][760]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2014.04.23-02.31.10:800][760]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2014.04.23-02.31.10:829][760]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.04.23-02.31.10:859][760]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2014.04.23-02.31.10:889][760]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2014.04.23-02.31.10:916][760]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2014.04.23-02.31.10:945][760]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2014.04.23-02.31.11:890][760]LogSavePackage: Save=1376.244019ms
+[2014.04.23-02.31.11:890][760]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//fgf_Auto23B38FF7D456FCB2A60C7678AA9ED5DFF.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/fgf_Auto2.umap'
+[2014.04.23-02.31.11:900][760]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/fgf' took 1.467
+[2014.04.23-02.31.11:900][760]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.467
+[2014.04.23-02.38.45:089][752]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.38.55:140][174]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.23-02.38.55:140][174]PIE: New page: PIE session: fgf (Apr 22, 2014, 4:38:55 PM)
+[2014.04.23-02.38.55:331][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190015s)
+[2014.04.23-02.38.55:332][174]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2014.04.23-02.38.55:332][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/fgf.fgf to /Game/UEDPIE_0_fgf.fgf (0.191286s)
+[2014.04.23-02.38.55:332][174]LogWorld: Game class is 'Survival_C'
+[2014.04.23-02.38.55:415][174]LogWorld: Bringing World /Game/UEDPIE_0_fgf.fgf up for play (max tick rate 0) at 2014.04.22-21.38.55
+[2014.04.23-02.38.55:426][174]LogWorld: Bringing up level for play took: 0.057581
+[2014.04.23-02.38.55:454][174]LogPlayerController: ClientRestart_Implementation DefaultPawn_0
+[2014.04.23-02.38.55:454][174]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_0
+[2014.04.23-02.38.55:459][174]PIE: Info Play in editor start time for /Game/UEDPIE_0_fgf 0.236
+[2014.04.23-02.39.01:251][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021161940
+[2014.04.23-02.39.10:677][833]Cmd: UpdateLandscapeSetup
+[2014.04.23-02.39.14:691][ 27]Cmd: UpdateLandscapeSetup
+[2014.04.23-02.39.17:833][220]Cmd: UpdateLandscapeSetup
+[2014.04.23-02.39.20:626][352]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.23-02.39.20:627][352]PIE: New page: PIE session: fgf (Apr 22, 2014, 4:39:20 PM)
+[2014.04.23-02.39.20:817][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.190380s)
+[2014.04.23-02.39.20:818][352]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2014.04.23-02.39.20:819][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/fgf.fgf to /Game/UEDPIE_0_fgf.fgf (0.191918s)
+[2014.04.23-02.39.20:819][352]LogWorld: Game class is 'Survival_C'
+[2014.04.23-02.39.20:895][352]LogWorld: Bringing World /Game/UEDPIE_0_fgf.fgf up for play (max tick rate 0) at 2014.04.22-21.39.20
+[2014.04.23-02.39.20:907][352]LogWorld: Bringing up level for play took: 0.057261
+[2014.04.23-02.39.20:908][352]LogPlayerController: ClientRestart_Implementation DefaultPawn_1
+[2014.04.23-02.39.20:908][352]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_1
+[2014.04.23-02.39.20:913][352]PIE: Info Play in editor start time for /Game/UEDPIE_0_fgf -0.31
+[2014.04.23-02.39.24:591][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3719E0
+[2014.04.23-02.39.37:096][ 60]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.04.23-02.40.50:723][305]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.23-02.40.50:723][305]PIE: New page: PIE session: fgf (Apr 22, 2014, 4:40:50 PM)
+[2014.04.23-02.40.50:924][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.201263s)
+[2014.04.23-02.40.50:925][305]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2014.04.23-02.40.50:926][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/fgf.fgf to /Game/UEDPIE_0_fgf.fgf (0.202820s)
+[2014.04.23-02.40.50:926][305]LogWorld: Game class is 'Survival_C'
+[2014.04.23-02.40.51:000][305]LogWorld: Bringing World /Game/UEDPIE_0_fgf.fgf up for play (max tick rate 0) at 2014.04.22-21.40.51
+[2014.04.23-02.40.51:010][305]LogWorld: Bringing up level for play took: 0.054107
+[2014.04.23-02.40.51:011][305]LogPlayerController: ClientRestart_Implementation DefaultPawn_2
+[2014.04.23-02.40.51:011][305]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_2
+[2014.04.23-02.40.51:016][305]PIE: Info Play in editor start time for /Game/UEDPIE_0_fgf -0.209
+[2014.04.23-02.41.51:445][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.04.23-02.41.51:445][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.04.23-02.41.51:488][312]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000471D7380
+[2014.04.23-02.42.14:175][507]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C854FE0
+[2014.04.23-02.42.26:964][ 42]Cmd: UpdateLandscapeHoleCollision
+[2014.04.23-02.42.30:096][182]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.04.23-02.42.31:257][236]Cmd: DELETE
+[2014.04.23-02.42.31:257][236]Cmd: ACTOR DELETE
+[2014.04.23-02.42.31:262][236]LogEditorActor: Deleted Actor: PlayerStart
+[2014.04.23-02.42.31:281][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.04.23-02.42.31:281][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.04.23-02.42.31:311][236]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.04.23-02.42.36:780][492]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.23-02.42.36:780][492]PIE: New page: PIE session: fgf (Apr 22, 2014, 4:42:36 PM)
+[2014.04.23-02.42.36:966][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.185816s)
+[2014.04.23-02.42.36:967][492]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2014.04.23-02.42.36:967][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/fgf.fgf to /Game/UEDPIE_0_fgf.fgf (0.187369s)
+[2014.04.23-02.42.36:967][492]LogWorld: Game class is 'Survival_C'
+[2014.04.23-02.42.37:040][492]LogWorld: Bringing World /Game/UEDPIE_0_fgf.fgf up for play (max tick rate 0) at 2014.04.22-21.42.37
+[2014.04.23-02.42.37:048][492]LogWorld: Bringing up level for play took: 0.052192
+[2014.04.23-02.42.37:049][492]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.04.23-02.42.37:049][492]LogPlayerController: ClientRestart_Implementation DefaultPawn_3
+[2014.04.23-02.42.37:049][492]LogPlayerController: ServerAcknowledgePossession_Implementation DefaultPawn_3
+[2014.04.23-02.42.37:054][492]PIE: Info Play in editor start time for /Game/UEDPIE_0_fgf -0.171
+[2014.04.23-02.43.50:888][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A6C4CC0
+[2014.04.23-02.43.52:711][392]Cmd: MODE PLACEMENT
+[2014.04.23-02.44.07:418][848]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2014.04.23-02.44.07:456][848]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2014.04.23-02.44.07:487][848]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2014.04.23-02.44.07:516][848]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2014.04.23-02.44.07:544][848]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2014.04.23-02.44.07:574][848]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2014.04.23-02.44.07:604][848]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.04.23-02.44.07:633][848]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2014.04.23-02.44.07:664][848]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2014.04.23-02.44.07:715][848]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.04.23-02.44.07:744][848]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2014.04.23-02.44.07:774][848]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2014.04.23-02.44.07:802][848]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2014.04.23-02.44.09:043][848]LogSavePackage: Save=1663.544556ms
+[2014.04.23-02.44.09:043][848]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//fgf_Auto3BC1A4D6E4FB1A0FB7347EA846C77C589.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/fgf_Auto3.umap'
+[2014.04.23-02.44.09:063][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/fgf' took 1.771
+[2014.04.23-02.44.09:063][848]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.771
+[2014.04.23-02.44.33:619][380]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.44.34:993][436]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.45.02:087][901]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2014.04.23-02.45.08:171][131]Cmd: SELECT NONE
+[2014.04.23-02.45.09:533][183]Cmd: UpdateLandscapeHoleCollision
+[2014.04.23-02.45.11:600][268]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2014.04.23-02.45.12:614][294]Cmd: DELETE
+[2014.04.23-02.45.12:614][294]Cmd: ACTOR DELETE
+[2014.04.23-02.45.12:615][294]LogEditorActor: Deleted Actor: Landscape
+[2014.04.23-02.45.12:914][294]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.04.23-02.45.12:946][294]LogEditorActor: Deleted 1 Actors (0.332 secs)
+[2014.04.23-02.45.12:961][295]Cmd: UpdateLandscapeEditorData
+[2014.04.23-02.45.15:356][406]Cmd: MODE PLACEMENT
+[2014.04.23-02.45.20:167][645]LogEditorViewport: Clicking Background
+[2014.04.23-02.45.26:693][928]LogEditorViewport: Clicking Background
+[2014.04.23-02.45.28:058][993]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.23-02.46.51:434][750]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.23-02.46.51:944][775]Cmd: DELETE
+[2014.04.23-02.46.51:944][775]Cmd: ACTOR DELETE
+[2014.04.23-02.46.51:945][775]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2014.04.23-02.46.51:945][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.04.23-02.46.51:945][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.04.23-02.46.51:977][775]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2014.04.23-02.47.01:292][327]Cmd: TRANSACTION UNDO
+[2014.04.23-02.47.01:307][327]LogEditorTransaction: Undo Delete Actors
+[2014.04.23-02.50.06:059][479]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.04.23-02.50.07:887][561]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.04.23-02.50.12:868][850]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props/Materials'
+[2014.04.23-02.50.13:635][877]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.04.23-02.51.36:905][977]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2014.04.23-02.51.36:944][977]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2014.04.23-02.51.36:971][977]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2014.04.23-02.51.37:000][977]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2014.04.23-02.51.37:025][977]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2014.04.23-02.51.37:052][977]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2014.04.23-02.51.37:080][977]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2014.04.23-02.51.37:108][977]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2014.04.23-02.51.37:136][977]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2014.04.23-02.51.37:162][977]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2014.04.23-02.51.37:191][977]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2014.04.23-02.51.37:218][977]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2014.04.23-02.51.37:247][977]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2014.04.23-02.51.37:331][977]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2014.04.23-02.51.37:357][977]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2014.04.23-02.51.37:384][977]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2014.04.23-02.51.38:960][978]Cmd: UpdateLandscapeEditorData
+[2014.04.23-02.52.32:051][350]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2014.04.23-02.53.27:042][660]Cmd: TRANSACTION UNDO
+[2014.04.23-02.53.27:042][660]LogEditorTransaction: Undo Landscape Editing: Noise
+[2014.04.23-02.53.56:933][741]Cmd: TRANSACTION UNDO
+[2014.04.23-02.53.56:933][741]LogEditorTransaction: Undo Landscape Editing: Noise
+[2014.04.23-02.54.09:167][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.04.23-02.54.09:167][165]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.04.23-02.54.10:039][165]LogSavePackage: Save=780.819336ms
+[2014.04.23-02.54.10:039][165]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//fgf_Auto49FE19121472B16DE3BFC95BBFD676F22.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/fgf_Auto4.umap'
+[2014.04.23-02.54.10:050][165]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/fgf' took 0.883
+[2014.04.23-02.54.10:050][165]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.883
+[2014.04.23-02.54.13:469][309]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.23-02.54.23:606][579]Cmd: TRANSACTION UNDO
+[2014.04.23-02.54.23:606][579]LogEditorTransaction: Undo Landscape Editing: Noise
+[2014.04.23-02.59.08:162][121]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.23-03.00.29:844][189]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.23-03.03.47:603][160]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.23-03.04.13:406][634]LogTexture:Display: Building textures: Texture2D_3 (BGRA8)
+[2014.04.23-03.04.13:441][634]LogTexture:Display: Building textures: Texture2D_4 (BGRA8)
+[2014.04.23-03.04.13:474][634]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2014.04.23-03.04.13:505][634]LogTexture:Display: Building textures: Texture2D_6 (BGRA8)
+[2014.04.23-03.04.13:536][634]LogTexture:Display: Building textures: Texture2D_7 (BGRA8)
+[2014.04.23-03.04.13:566][634]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2014.04.23-03.04.13:598][634]LogTexture:Display: Building textures: Texture2D_9 (BGRA8)
+[2014.04.23-03.04.13:647][634]LogTexture:Display: Building textures: Texture2D_10 (BGRA8)
+[2014.04.23-03.04.13:675][634]LogTexture:Display: Building textures: Texture2D_11 (BGRA8)
+[2014.04.23-03.04.13:706][634]LogTexture:Display: Building textures: Texture2D_12 (BGRA8)
+[2014.04.23-03.04.13:738][634]LogTexture:Display: Building textures: Texture2D_13 (BGRA8)
+[2014.04.23-03.04.13:766][634]LogTexture:Display: Building textures: Texture2D_14 (BGRA8)
+[2014.04.23-03.04.13:795][634]LogTexture:Display: Building textures: Texture2D_15 (BGRA8)
+[2014.04.23-03.04.13:825][634]LogTexture:Display: Building textures: Texture2D_16 (BGRA8)
+[2014.04.23-03.04.13:855][634]LogTexture:Display: Building textures: Texture2D_17 (BGRA8)
+[2014.04.23-03.04.13:888][634]LogTexture:Display: Building textures: Texture2D_18 (BGRA8)
+[2014.04.23-03.04.14:987][634]LogSavePackage: Save=1624.267212ms
+[2014.04.23-03.04.14:987][634]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//fgf_Auto58B047E264F9A61E1C220D7B48E31D2A3.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/fgf_Auto5.umap'
+[2014.04.23-03.04.14:998][634]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/fgf' took 1.747
+[2014.04.23-03.04.14:998][634]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.747
+[2014.04.23-03.04.15:011][635]Cmd: UpdateLandscapeEditorData
+[2014.04.23-03.07.16:956][901]LogTexture:Display: Building textures: Texture2D_19 (BGRA8)
+[2014.04.23-03.07.16:965][901]LogTexture:Display: Building textures: Texture2D_20 (BGRA8)
+[2014.04.23-03.07.16:967][901]LogTexture:Display: Building textures: Texture2D_21 (BGRA8)
+[2014.04.23-03.07.16:968][901]LogTexture:Display: Building textures: Texture2D_22 (BGRA8)
+[2014.04.23-03.07.16:972][901]LogTexture:Display: Building textures: Texture2D_23 (BGRA8)
+[2014.04.23-03.07.16:975][901]LogTexture:Display: Building textures: Texture2D_24 (BGRA8)
+[2014.04.23-03.07.16:977][901]LogTexture:Display: Building textures: Texture2D_25 (BGRA8)
+[2014.04.23-03.07.16:978][901]LogTexture:Display: Building textures: Texture2D_26 (BGRA8)
+[2014.04.23-03.07.16:982][901]LogTexture:Display: Building textures: Texture2D_27 (BGRA8)
+[2014.04.23-03.07.16:984][901]LogTexture:Display: Building textures: Texture2D_28 (BGRA8)
+[2014.04.23-03.07.16:986][901]LogTexture:Display: Building textures: Texture2D_29 (BGRA8)
+[2014.04.23-03.07.16:988][901]LogTexture:Display: Building textures: Texture2D_30 (BGRA8)
+[2014.04.23-03.07.16:990][901]LogTexture:Display: Building textures: Texture2D_31 (BGRA8)
+[2014.04.23-03.07.16:992][901]LogTexture:Display: Building textures: Texture2D_32 (BGRA8)
+[2014.04.23-03.07.16:994][901]LogTexture:Display: Building textures: Texture2D_33 (BGRA8)
+[2014.04.23-03.07.16:998][901]LogTexture:Display: Building textures: Texture2D_34 (BGRA8)
+[2014.04.23-03.07.17:036][901]LogTexture:Display: Building textures: Texture2D_35 (BGRA8)
+[2014.04.23-03.07.17:037][901]LogTexture:Display: Building textures: Texture2D_36 (BGRA8)
+[2014.04.23-03.07.17:039][901]LogTexture:Display: Building textures: Texture2D_37 (BGRA8)
+[2014.04.23-03.07.17:041][901]LogTexture:Display: Building textures: Texture2D_38 (BGRA8)
+[2014.04.23-03.07.17:043][901]LogTexture:Display: Building textures: Texture2D_39 (BGRA8)
+[2014.04.23-03.07.17:045][901]LogTexture:Display: Building textures: Texture2D_40 (BGRA8)
+[2014.04.23-03.07.17:047][901]LogTexture:Display: Building textures: Texture2D_41 (BGRA8)
+[2014.04.23-03.07.17:049][901]LogTexture:Display: Building textures: Texture2D_42 (BGRA8)
+[2014.04.23-03.07.17:051][901]LogTexture:Display: Building textures: Texture2D_43 (BGRA8)
+[2014.04.23-03.07.17:053][901]LogTexture:Display: Building textures: Texture2D_44 (BGRA8)
+[2014.04.23-03.07.17:055][901]LogTexture:Display: Building textures: Texture2D_45 (BGRA8)
+[2014.04.23-03.07.17:057][901]LogTexture:Display: Building textures: Texture2D_46 (BGRA8)
+[2014.04.23-03.07.17:059][901]LogTexture:Display: Building textures: Texture2D_47 (BGRA8)
+[2014.04.23-03.07.17:061][901]LogTexture:Display: Building textures: Texture2D_48 (BGRA8)
+[2014.04.23-03.07.17:063][901]LogTexture:Display: Building textures: Texture2D_49 (BGRA8)
+[2014.04.23-03.07.17:066][901]LogTexture:Display: Building textures: Texture2D_50 (BGRA8)
+[2014.04.23-03.07.17:069][901]LogTexture:Display: Building textures: Texture2D_51 (BGRA8)
+[2014.04.23-03.07.17:071][901]LogTexture:Display: Building textures: Texture2D_52 (BGRA8)
+[2014.04.23-03.07.17:073][901]LogTexture:Display: Building textures: Texture2D_53 (BGRA8)
+[2014.04.23-03.07.17:075][901]LogTexture:Display: Building textures: Texture2D_54 (BGRA8)
+[2014.04.23-03.07.17:077][901]LogTexture:Display: Building textures: Texture2D_55 (BGRA8)
+[2014.04.23-03.07.17:079][901]LogTexture:Display: Building textures: Texture2D_56 (BGRA8)
+[2014.04.23-03.07.17:081][901]LogTexture:Display: Building textures: Texture2D_57 (BGRA8)
+[2014.04.23-03.07.17:084][901]LogTexture:Display: Building textures: Texture2D_58 (BGRA8)
+[2014.04.23-03.07.17:117][901]LogTexture:Display: Building textures: Texture2D_59 (BGRA8)
+[2014.04.23-03.07.17:119][901]LogTexture:Display: Building textures: Texture2D_60 (BGRA8)
+[2014.04.23-03.07.17:121][901]LogTexture:Display: Building textures: Texture2D_61 (BGRA8)
+[2014.04.23-03.07.17:122][901]LogTexture:Display: Building textures: Texture2D_62 (BGRA8)
+[2014.04.23-03.07.17:124][901]LogTexture:Display: Building textures: Texture2D_63 (BGRA8)
+[2014.04.23-03.07.17:126][901]LogTexture:Display: Building textures: Texture2D_64 (BGRA8)
+[2014.04.23-03.07.17:156][901]LogTexture:Display: Building textures: Texture2D_65 (BGRA8)
+[2014.04.23-03.07.17:158][901]LogTexture:Display: Building textures: Texture2D_66 (BGRA8)
+[2014.04.23-03.07.17:160][901]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2014.04.23-03.07.17:162][901]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2014.04.23-03.07.17:164][901]LogTexture:Display: Building textures: Texture2D_69 (BGRA8)
+[2014.04.23-03.07.17:166][901]LogTexture:Display: Building textures: Texture2D_70 (BGRA8)
+[2014.04.23-03.07.17:169][901]LogTexture:Display: Building textures: Texture2D_71 (BGRA8)
+[2014.04.23-03.07.17:172][901]LogTexture:Display: Building textures: Texture2D_72 (BGRA8)
+[2014.04.23-03.07.17:173][901]LogTexture:Display: Building textures: Texture2D_73 (BGRA8)
+[2014.04.23-03.07.17:175][901]LogTexture:Display: Building textures: Texture2D_74 (BGRA8)
+[2014.04.23-03.07.17:177][901]LogTexture:Display: Building textures: Texture2D_75 (BGRA8)
+[2014.04.23-03.07.17:180][901]LogTexture:Display: Building textures: Texture2D_76 (BGRA8)
+[2014.04.23-03.07.17:182][901]LogTexture:Display: Building textures: Texture2D_77 (BGRA8)
+[2014.04.23-03.07.17:184][901]LogTexture:Display: Building textures: Texture2D_78 (BGRA8)
+[2014.04.23-03.07.17:187][901]LogTexture:Display: Building textures: Texture2D_79 (BGRA8)
+[2014.04.23-03.07.17:188][901]LogTexture:Display: Building textures: Texture2D_80 (BGRA8)
+[2014.04.23-03.07.17:190][901]LogTexture:Display: Building textures: Texture2D_81 (BGRA8)
+[2014.04.23-03.07.17:192][901]LogTexture:Display: Building textures: Texture2D_82 (BGRA8)
+[2014.04.23-03.07.17:194][901]LogTexture:Display: Building textures: Texture2D_83 (BGRA8)
+[2014.04.23-03.07.17:197][901]LogTexture:Display: Building textures: Texture2D_84 (BGRA8)
+[2014.04.23-03.07.17:199][901]LogTexture:Display: Building textures: Texture2D_85 (BGRA8)
+[2014.04.23-03.07.17:200][901]LogTexture:Display: Building textures: Texture2D_86 (BGRA8)
+[2014.04.23-03.07.17:202][901]LogTexture:Display: Building textures: Texture2D_87 (BGRA8)
+[2014.04.23-03.07.17:204][901]LogTexture:Display: Building textures: Texture2D_88 (BGRA8)
+[2014.04.23-03.07.17:206][901]LogTexture:Display: Building textures: Texture2D_89 (BGRA8)
+[2014.04.23-03.07.17:208][901]LogTexture:Display: Building textures: Texture2D_90 (BGRA8)
+[2014.04.23-03.07.17:210][901]LogTexture:Display: Building textures: Texture2D_91 (BGRA8)
+[2014.04.23-03.07.17:211][901]LogTexture:Display: Building textures: Texture2D_92 (BGRA8)
+[2014.04.23-03.07.17:213][901]LogTexture:Display: Building textures: Texture2D_93 (BGRA8)
+[2014.04.23-03.07.17:215][901]LogTexture:Display: Building textures: Texture2D_94 (BGRA8)
+[2014.04.23-03.07.17:217][901]LogTexture:Display: Building textures: Texture2D_95 (BGRA8)
+[2014.04.23-03.07.17:220][901]LogTexture:Display: Building textures: Texture2D_96 (BGRA8)
+[2014.04.23-03.07.17:221][901]LogTexture:Display: Building textures: Texture2D_97 (BGRA8)
+[2014.04.23-03.07.17:224][901]LogTexture:Display: Building textures: Texture2D_98 (BGRA8)
+[2014.04.23-03.07.17:228][901]LogTexture:Display: Building textures: Texture2D_99 (BGRA8)
+[2014.04.23-03.07.17:231][901]LogTexture:Display: Building textures: Texture2D_100 (BGRA8)
+[2014.04.23-03.07.17:233][901]LogTexture:Display: Building textures: Texture2D_101 (BGRA8)
+[2014.04.23-03.07.17:235][901]LogTexture:Display: Building textures: Texture2D_102 (BGRA8)
+[2014.04.23-03.07.17:237][901]LogTexture:Display: Building textures: Texture2D_103 (BGRA8)
+[2014.04.23-03.07.17:239][901]LogTexture:Display: Building textures: Texture2D_104 (BGRA8)
+[2014.04.23-03.07.17:241][901]LogTexture:Display: Building textures: Texture2D_105 (BGRA8)
+[2014.04.23-03.07.17:243][901]LogTexture:Display: Building textures: Texture2D_106 (BGRA8)
+[2014.04.23-03.07.17:245][901]LogTexture:Display: Building textures: Texture2D_107 (BGRA8)
+[2014.04.23-03.07.17:256][901]LogTexture:Display: Building textures: Texture2D_108 (BGRA8)
+[2014.04.23-03.07.17:258][901]LogTexture:Display: Building textures: Texture2D_109 (BGRA8)
+[2014.04.23-03.07.17:260][901]LogTexture:Display: Building textures: Texture2D_110 (BGRA8)
+[2014.04.23-03.07.17:262][901]LogTexture:Display: Building textures: Texture2D_111 (BGRA8)
+[2014.04.23-03.07.17:264][901]LogTexture:Display: Building textures: Texture2D_112 (BGRA8)
+[2014.04.23-03.07.17:266][901]LogTexture:Display: Building textures: Texture2D_113 (BGRA8)
+[2014.04.23-03.07.17:267][901]LogTexture:Display: Building textures: Texture2D_114 (BGRA8)
+[2014.04.23-03.07.17:269][901]LogTexture:Display: Building textures: Texture2D_115 (BGRA8)
+[2014.04.23-03.07.17:271][901]LogTexture:Display: Building textures: Texture2D_116 (BGRA8)
+[2014.04.23-03.07.17:273][901]LogTexture:Display: Building textures: Texture2D_117 (BGRA8)
+[2014.04.23-03.07.17:275][901]LogTexture:Display: Building textures: Texture2D_118 (BGRA8)
+[2014.04.23-03.07.17:277][901]LogTexture:Display: Building textures: Texture2D_119 (BGRA8)
+[2014.04.23-03.07.17:279][901]LogTexture:Display: Building textures: Texture2D_120 (BGRA8)
+[2014.04.23-03.07.17:281][901]LogTexture:Display: Building textures: Texture2D_121 (BGRA8)
+[2014.04.23-03.07.17:300][901]LogTexture:Display: Building textures: Texture2D_122 (BGRA8)
+[2014.04.23-03.07.17:302][901]LogTexture:Display: Building textures: Texture2D_123 (BGRA8)
+[2014.04.23-03.07.17:304][901]LogTexture:Display: Building textures: Texture2D_124 (BGRA8)
+[2014.04.23-03.07.17:306][901]LogTexture:Display: Building textures: Texture2D_125 (BGRA8)
+[2014.04.23-03.07.17:308][901]LogTexture:Display: Building textures: Texture2D_126 (BGRA8)
+[2014.04.23-03.07.17:310][901]LogTexture:Display: Building textures: Texture2D_127 (BGRA8)
+[2014.04.23-03.07.17:321][901]LogTexture:Display: Building textures: Texture2D_128 (BGRA8)
+[2014.04.23-03.07.17:323][901]LogTexture:Display: Building textures: Texture2D_129 (BGRA8)
+[2014.04.23-03.07.17:325][901]LogTexture:Display: Building textures: Texture2D_130 (BGRA8)
+[2014.04.23-03.07.17:326][901]LogTexture:Display: Building textures: Texture2D_131 (BGRA8)
+[2014.04.23-03.07.17:328][901]LogTexture:Display: Building textures: Texture2D_132 (BGRA8)
+[2014.04.23-03.07.17:330][901]LogTexture:Display: Building textures: Texture2D_133 (BGRA8)
+[2014.04.23-03.07.17:332][901]LogTexture:Display: Building textures: Texture2D_134 (BGRA8)
+[2014.04.23-03.07.17:356][901]LogTexture:Display: Building textures: Texture2D_135 (BGRA8)
+[2014.04.23-03.07.17:358][901]LogTexture:Display: Building textures: Texture2D_136 (BGRA8)
+[2014.04.23-03.07.17:360][901]LogTexture:Display: Building textures: Texture2D_137 (BGRA8)
+[2014.04.23-03.07.17:362][901]LogTexture:Display: Building textures: Texture2D_138 (BGRA8)
+[2014.04.23-03.07.17:364][901]LogTexture:Display: Building textures: Texture2D_139 (BGRA8)
+[2014.04.23-03.07.17:366][901]LogTexture:Display: Building textures: Texture2D_140 (BGRA8)
+[2014.04.23-03.07.17:368][901]LogTexture:Display: Building textures: Texture2D_141 (BGRA8)
+[2014.04.23-03.07.17:371][901]LogTexture:Display: Building textures: Texture2D_142 (BGRA8)
+[2014.04.23-03.07.17:373][901]LogTexture:Display: Building textures: Texture2D_143 (BGRA8)
+[2014.04.23-03.07.17:374][901]LogTexture:Display: Building textures: Texture2D_144 (BGRA8)
+[2014.04.23-03.07.17:376][901]LogTexture:Display: Building textures: Texture2D_145 (BGRA8)
+[2014.04.23-03.07.17:378][901]LogTexture:Display: Building textures: Texture2D_146 (BGRA8)
+[2014.04.23-03.07.17:380][901]LogTexture:Display: Building textures: Texture2D_147 (BGRA8)
+[2014.04.23-03.07.17:382][901]LogTexture:Display: Building textures: Texture2D_148 (BGRA8)
+[2014.04.23-03.07.17:437][901]LogTexture:Display: Building textures: Texture2D_149 (BGRA8)
+[2014.04.23-03.07.17:439][901]LogTexture:Display: Building textures: Texture2D_150 (BGRA8)
+[2014.04.23-03.07.17:443][901]LogTexture:Display: Building textures: Texture2D_151 (BGRA8)
+[2014.04.23-03.07.17:445][901]LogTexture:Display: Building textures: Texture2D_152 (BGRA8)
+[2014.04.23-03.07.17:447][901]LogTexture:Display: Building textures: Texture2D_153 (BGRA8)
+[2014.04.23-03.07.17:449][901]LogTexture:Display: Building textures: Texture2D_154 (BGRA8)
+[2014.04.23-03.07.17:451][901]LogTexture:Display: Building textures: Texture2D_155 (BGRA8)
+[2014.04.23-03.07.17:453][901]LogTexture:Display: Building textures: Texture2D_156 (BGRA8)
+[2014.04.23-03.07.17:455][901]LogTexture:Display: Building textures: Texture2D_157 (BGRA8)
+[2014.04.23-03.07.17:457][901]LogTexture:Display: Building textures: Texture2D_158 (BGRA8)
+[2014.04.23-03.07.17:459][901]LogTexture:Display: Building textures: Texture2D_159 (BGRA8)
+[2014.04.23-03.07.17:461][901]LogTexture:Display: Building textures: Texture2D_160 (BGRA8)
+[2014.04.23-03.07.17:462][901]LogTexture:Display: Building textures: Texture2D_161 (BGRA8)
+[2014.04.23-03.07.17:464][901]LogTexture:Display: Building textures: Texture2D_162 (BGRA8)
+[2014.04.23-03.07.17:466][901]LogTexture:Display: Building textures: Texture2D_163 (BGRA8)
+[2014.04.23-03.07.17:469][901]LogTexture:Display: Building textures: Texture2D_164 (BGRA8)
+[2014.04.23-03.07.17:472][901]LogTexture:Display: Building textures: Texture2D_165 (BGRA8)
+[2014.04.23-03.07.17:475][901]LogTexture:Display: Building textures: Texture2D_166 (BGRA8)
+[2014.04.23-03.07.17:477][901]LogTexture:Display: Building textures: Texture2D_167 (BGRA8)
+[2014.04.23-03.07.17:479][901]LogTexture:Display: Building textures: Texture2D_168 (BGRA8)
+[2014.04.23-03.07.17:481][901]LogTexture:Display: Building textures: Texture2D_169 (BGRA8)
+[2014.04.23-03.07.17:483][901]LogTexture:Display: Building textures: Texture2D_170 (BGRA8)
+[2014.04.23-03.07.17:485][901]LogTexture:Display: Building textures: Texture2D_171 (BGRA8)
+[2014.04.23-03.07.17:487][901]LogTexture:Display: Building textures: Texture2D_172 (BGRA8)
+[2014.04.23-03.07.17:489][901]LogTexture:Display: Building textures: Texture2D_173 (BGRA8)
+[2014.04.23-03.07.17:490][901]LogTexture:Display: Building textures: Texture2D_174 (BGRA8)
+[2014.04.23-03.07.17:492][901]LogTexture:Display: Building textures: Texture2D_175 (BGRA8)
+[2014.04.23-03.07.17:494][901]LogTexture:Display: Building textures: Texture2D_176 (BGRA8)
+[2014.04.23-03.07.17:496][901]LogTexture:Display: Building textures: Texture2D_177 (BGRA8)
+[2014.04.23-03.07.17:498][901]LogTexture:Display: Building textures: Texture2D_178 (BGRA8)
+[2014.04.23-03.07.17:500][901]LogTexture:Display: Building textures: Texture2D_179 (BGRA8)
+[2014.04.23-03.07.17:502][901]LogTexture:Display: Building textures: Texture2D_180 (BGRA8)
+[2014.04.23-03.07.17:504][901]LogTexture:Display: Building textures: Texture2D_181 (BGRA8)
+[2014.04.23-03.07.17:506][901]LogTexture:Display: Building textures: Texture2D_182 (BGRA8)
+[2014.04.23-03.07.17:508][901]LogTexture:Display: Building textures: Texture2D_183 (BGRA8)
+[2014.04.23-03.07.17:510][901]LogTexture:Display: Building textures: Texture2D_184 (BGRA8)
+[2014.04.23-03.07.17:512][901]LogTexture:Display: Building textures: Texture2D_185 (BGRA8)
+[2014.04.23-03.07.17:514][901]LogTexture:Display: Building textures: Texture2D_186 (BGRA8)
+[2014.04.23-03.07.17:516][901]LogTexture:Display: Building textures: Texture2D_187 (BGRA8)
+[2014.04.23-03.07.17:518][901]LogTexture:Display: Building textures: Texture2D_188 (BGRA8)
+[2014.04.23-03.07.17:520][901]LogTexture:Display: Building textures: Texture2D_189 (BGRA8)
+[2014.04.23-03.07.17:522][901]LogTexture:Display: Building textures: Texture2D_190 (BGRA8)
+[2014.04.23-03.07.17:524][901]LogTexture:Display: Building textures: Texture2D_191 (BGRA8)
+[2014.04.23-03.07.17:526][901]LogTexture:Display: Building textures: Texture2D_192 (BGRA8)
+[2014.04.23-03.07.17:529][901]LogTexture:Display: Building textures: Texture2D_193 (BGRA8)
+[2014.04.23-03.07.17:532][901]LogTexture:Display: Building textures: Texture2D_194 (BGRA8)
+[2014.04.23-03.07.17:533][901]LogTexture:Display: Building textures: Texture2D_195 (BGRA8)
+[2014.04.23-03.07.17:535][901]LogTexture:Display: Building textures: Texture2D_196 (BGRA8)
+[2014.04.23-03.07.17:537][901]LogTexture:Display: Building textures: Texture2D_197 (BGRA8)
+[2014.04.23-03.07.17:539][901]LogTexture:Display: Building textures: Texture2D_198 (BGRA8)
+[2014.04.23-03.07.17:541][901]LogTexture:Display: Building textures: Texture2D_199 (BGRA8)
+[2014.04.23-03.07.17:542][901]LogTexture:Display: Building textures: Texture2D_200 (BGRA8)
+[2014.04.23-03.07.17:544][901]LogTexture:Display: Building textures: Texture2D_201 (BGRA8)
+[2014.04.23-03.07.17:547][901]LogTexture:Display: Building textures: Texture2D_202 (BGRA8)
+[2014.04.23-03.07.17:548][901]LogTexture:Display: Building textures: Texture2D_203 (BGRA8)
+[2014.04.23-03.07.17:550][901]LogTexture:Display: Building textures: Texture2D_204 (BGRA8)
+[2014.04.23-03.07.17:552][901]LogTexture:Display: Building textures: Texture2D_205 (BGRA8)
+[2014.04.23-03.07.17:554][901]LogTexture:Display: Building textures: Texture2D_206 (BGRA8)
+[2014.04.23-03.07.17:556][901]LogTexture:Display: Building textures: Texture2D_207 (BGRA8)
+[2014.04.23-03.07.17:558][901]LogTexture:Display: Building textures: Texture2D_208 (BGRA8)
+[2014.04.23-03.07.17:560][901]LogTexture:Display: Building textures: Texture2D_209 (BGRA8)
+[2014.04.23-03.07.17:563][901]LogTexture:Display: Building textures: Texture2D_210 (BGRA8)
+[2014.04.23-03.07.17:590][901]LogTexture:Display: Building textures: Texture2D_211 (BGRA8)
+[2014.04.23-03.07.17:592][901]LogTexture:Display: Building textures: Texture2D_212 (BGRA8)
+[2014.04.23-03.07.17:595][901]LogTexture:Display: Building textures: Texture2D_213 (BGRA8)
+[2014.04.23-03.07.17:597][901]LogTexture:Display: Building textures: Texture2D_214 (BGRA8)
+[2014.04.23-03.07.17:600][901]LogTexture:Display: Building textures: Texture2D_215 (BGRA8)
+[2014.04.23-03.07.17:603][901]LogTexture:Display: Building textures: Texture2D_216 (BGRA8)
+[2014.04.23-03.07.17:605][901]LogTexture:Display: Building textures: Texture2D_217 (BGRA8)
+[2014.04.23-03.07.17:607][901]LogTexture:Display: Building textures: Texture2D_218 (BGRA8)
+[2014.04.23-03.07.17:609][901]LogTexture:Display: Building textures: Texture2D_219 (BGRA8)
+[2014.04.23-03.07.17:611][901]LogTexture:Display: Building textures: Texture2D_220 (BGRA8)
+[2014.04.23-03.07.17:613][901]LogTexture:Display: Building textures: Texture2D_221 (BGRA8)
+[2014.04.23-03.07.17:615][901]LogTexture:Display: Building textures: Texture2D_222 (BGRA8)
+[2014.04.23-03.07.17:617][901]LogTexture:Display: Building textures: Texture2D_223 (BGRA8)
+[2014.04.23-03.07.17:619][901]LogTexture:Display: Building textures: Texture2D_224 (BGRA8)
+[2014.04.23-03.07.17:621][901]LogTexture:Display: Building textures: Texture2D_225 (BGRA8)
+[2014.04.23-03.07.17:623][901]LogTexture:Display: Building textures: Texture2D_226 (BGRA8)
+[2014.04.23-03.07.17:625][901]LogTexture:Display: Building textures: Texture2D_227 (BGRA8)
+[2014.04.23-03.07.17:627][901]LogTexture:Display: Building textures: Texture2D_228 (BGRA8)
+[2014.04.23-03.07.17:629][901]LogTexture:Display: Building textures: Texture2D_229 (BGRA8)
+[2014.04.23-03.07.17:631][901]LogTexture:Display: Building textures: Texture2D_230 (BGRA8)
+[2014.04.23-03.07.17:633][901]LogTexture:Display: Building textures: Texture2D_231 (BGRA8)
+[2014.04.23-03.07.17:636][901]LogTexture:Display: Building textures: Texture2D_232 (BGRA8)
+[2014.04.23-03.07.17:638][901]LogTexture:Display: Building textures: Texture2D_233 (BGRA8)
+[2014.04.23-03.07.17:641][901]LogTexture:Display: Building textures: Texture2D_234 (BGRA8)
+[2014.04.23-03.07.17:646][901]LogTexture:Display: Building textures: Texture2D_235 (BGRA8)
+[2014.04.23-03.07.17:649][901]LogTexture:Display: Building textures: Texture2D_236 (BGRA8)
+[2014.04.23-03.07.17:695][901]LogTexture:Display: Building textures: Texture2D_237 (BGRA8)
+[2014.04.23-03.07.17:697][901]LogTexture:Display: Building textures: Texture2D_238 (BGRA8)
+[2014.04.23-03.07.17:700][901]LogTexture:Display: Building textures: Texture2D_239 (BGRA8)
+[2014.04.23-03.07.17:702][901]LogTexture:Display: Building textures: Texture2D_240 (BGRA8)
+[2014.04.23-03.07.17:704][901]LogTexture:Display: Building textures: Texture2D_241 (BGRA8)
+[2014.04.23-03.07.17:706][901]LogTexture:Display: Building textures: Texture2D_242 (BGRA8)
+[2014.04.23-03.07.17:708][901]LogTexture:Display: Building textures: Texture2D_243 (BGRA8)
+[2014.04.23-03.07.17:732][901]LogTexture:Display: Building textures: Texture2D_244 (BGRA8)
+[2014.04.23-03.07.17:734][901]LogTexture:Display: Building textures: Texture2D_245 (BGRA8)
+[2014.04.23-03.07.17:736][901]LogTexture:Display: Building textures: Texture2D_246 (BGRA8)
+[2014.04.23-03.07.17:738][901]LogTexture:Display: Building textures: Texture2D_247 (BGRA8)
+[2014.04.23-03.07.17:771][901]LogTexture:Display: Building textures: Texture2D_248 (BGRA8)
+[2014.04.23-03.07.17:773][901]LogTexture:Display: Building textures: Texture2D_249 (BGRA8)
+[2014.04.23-03.07.17:775][901]LogTexture:Display: Building textures: Texture2D_250 (BGRA8)
+[2014.04.23-03.07.17:776][901]LogTexture:Display: Building textures: Texture2D_251 (BGRA8)
+[2014.04.23-03.07.17:778][901]LogTexture:Display: Building textures: Texture2D_252 (BGRA8)
+[2014.04.23-03.07.17:780][901]LogTexture:Display: Building textures: Texture2D_253 (BGRA8)
+[2014.04.23-03.07.17:782][901]LogTexture:Display: Building textures: Texture2D_254 (BGRA8)
+[2014.04.23-03.07.17:784][901]LogTexture:Display: Building textures: Texture2D_255 (BGRA8)
+[2014.04.23-03.07.17:786][901]LogTexture:Display: Building textures: Texture2D_256 (BGRA8)
+[2014.04.23-03.07.17:788][901]LogTexture:Display: Building textures: Texture2D_257 (BGRA8)
+[2014.04.23-03.07.17:791][901]LogTexture:Display: Building textures: Texture2D_258 (BGRA8)
+[2014.04.23-03.07.17:793][901]LogTexture:Display: Building textures: Texture2D_259 (BGRA8)
+[2014.04.23-03.07.17:795][901]LogTexture:Display: Building textures: Texture2D_260 (BGRA8)
+[2014.04.23-03.07.17:796][901]LogTexture:Display: Building textures: Texture2D_261 (BGRA8)
+[2014.04.23-03.07.17:798][901]LogTexture:Display: Building textures: Texture2D_262 (BGRA8)
+[2014.04.23-03.07.17:800][901]LogTexture:Display: Building textures: Texture2D_263 (BGRA8)
+[2014.04.23-03.07.17:802][901]LogTexture:Display: Building textures: Texture2D_264 (BGRA8)
+[2014.04.23-03.07.17:804][901]LogTexture:Display: Building textures: Texture2D_265 (BGRA8)
+[2014.04.23-03.07.17:806][901]LogTexture:Display: Building textures: Texture2D_266 (BGRA8)
+[2014.04.23-03.07.17:819][901]LogTexture:Display: Building textures: Texture2D_267 (BGRA8)
+[2014.04.23-03.07.17:821][901]LogTexture:Display: Building textures: Texture2D_268 (BGRA8)
+[2014.04.23-03.07.17:824][901]LogTexture:Display: Building textures: Texture2D_269 (BGRA8)
+[2014.04.23-03.07.17:826][901]LogTexture:Display: Building textures: Texture2D_270 (BGRA8)
+[2014.04.23-03.07.17:827][901]LogTexture:Display: Building textures: Texture2D_271 (BGRA8)
+[2014.04.23-03.07.17:829][901]LogTexture:Display: Building textures: Texture2D_272 (BGRA8)
+[2014.04.23-03.07.17:831][901]LogTexture:Display: Building textures: Texture2D_273 (BGRA8)
+[2014.04.23-03.07.17:833][901]LogTexture:Display: Building textures: Texture2D_274 (BGRA8)
+[2014.04.23-03.07.17:835][901]LogTexture:Display: Building textures: Texture2D_275 (BGRA8)
+[2014.04.23-03.07.17:837][901]LogTexture:Display: Building textures: Texture2D_276 (BGRA8)
+[2014.04.23-03.07.17:840][901]LogTexture:Display: Building textures: Texture2D_277 (BGRA8)
+[2014.04.23-03.07.17:842][901]LogTexture:Display: Building textures: Texture2D_278 (BGRA8)
+[2014.04.23-03.07.17:867][901]LogTexture:Display: Building textures: Texture2D_279 (BGRA8)
+[2014.04.23-03.07.17:870][901]LogTexture:Display: Building textures: Texture2D_280 (BGRA8)
+[2014.04.23-03.07.17:873][901]LogTexture:Display: Building textures: Texture2D_281 (BGRA8)
+[2014.04.23-03.07.17:875][901]LogTexture:Display: Building textures: Texture2D_282 (BGRA8)
+[2014.04.23-03.07.17:877][901]LogTexture:Display: Building textures: Texture2D_283 (BGRA8)
+[2014.04.23-03.07.17:879][901]LogTexture:Display: Building textures: Texture2D_284 (BGRA8)
+[2014.04.23-03.07.17:882][901]LogTexture:Display: Building textures: Texture2D_285 (BGRA8)
+[2014.04.23-03.07.17:884][901]LogTexture:Display: Building textures: Texture2D_286 (BGRA8)
+[2014.04.23-03.07.17:886][901]LogTexture:Display: Building textures: Texture2D_287 (BGRA8)
+[2014.04.23-03.07.17:888][901]LogTexture:Display: Building textures: Texture2D_288 (BGRA8)
+[2014.04.23-03.07.17:890][901]LogTexture:Display: Building textures: Texture2D_289 (BGRA8)
+[2014.04.23-03.07.17:892][901]LogTexture:Display: Building textures: Texture2D_290 (BGRA8)
+[2014.04.23-03.07.17:894][901]LogTexture:Display: Building textures: Texture2D_291 (BGRA8)
+[2014.04.23-03.07.17:896][901]LogTexture:Display: Building textures: Texture2D_292 (BGRA8)
+[2014.04.23-03.07.17:912][901]LogTexture:Display: Building textures: Texture2D_293 (BGRA8)
+[2014.04.23-03.07.17:914][901]LogTexture:Display: Building textures: Texture2D_294 (BGRA8)
+[2014.04.23-03.07.17:916][901]LogTexture:Display: Building textures: Texture2D_295 (BGRA8)
+[2014.04.23-03.07.17:918][901]LogTexture:Display: Building textures: Texture2D_296 (BGRA8)
+[2014.04.23-03.07.17:921][901]LogTexture:Display: Building textures: Texture2D_297 (BGRA8)
+[2014.04.23-03.07.17:923][901]LogTexture:Display: Building textures: Texture2D_298 (BGRA8)
+[2014.04.23-03.07.17:946][901]LogTexture:Display: Building textures: Texture2D_299 (BGRA8)
+[2014.04.23-03.07.17:948][901]LogTexture:Display: Building textures: Texture2D_300 (BGRA8)
+[2014.04.23-03.07.17:950][901]LogTexture:Display: Building textures: Texture2D_301 (BGRA8)
+[2014.04.23-03.07.17:952][901]LogTexture:Display: Building textures: Texture2D_302 (BGRA8)
+[2014.04.23-03.07.17:954][901]LogTexture:Display: Building textures: Texture2D_303 (BGRA8)
+[2014.04.23-03.07.17:957][901]LogTexture:Display: Building textures: Texture2D_304 (BGRA8)
+[2014.04.23-03.07.17:959][901]LogTexture:Display: Building textures: Texture2D_305 (BGRA8)
+[2014.04.23-03.07.17:977][901]LogTexture:Display: Building textures: Texture2D_306 (BGRA8)
+[2014.04.23-03.07.17:979][901]LogTexture:Display: Building textures: Texture2D_307 (BGRA8)
+[2014.04.23-03.07.17:981][901]LogTexture:Display: Building textures: Texture2D_308 (BGRA8)
+[2014.04.23-03.07.17:982][901]LogTexture:Display: Building textures: Texture2D_309 (BGRA8)
+[2014.04.23-03.07.17:985][901]LogTexture:Display: Building textures: Texture2D_310 (BGRA8)
+[2014.04.23-03.07.17:987][901]LogTexture:Display: Building textures: Texture2D_311 (BGRA8)
+[2014.04.23-03.07.17:989][901]LogTexture:Display: Building textures: Texture2D_312 (BGRA8)
+[2014.04.23-03.07.17:991][901]LogTexture:Display: Building textures: Texture2D_313 (BGRA8)
+[2014.04.23-03.07.17:993][901]LogTexture:Display: Building textures: Texture2D_314 (BGRA8)
+[2014.04.23-03.07.17:995][901]LogTexture:Display: Building textures: Texture2D_315 (BGRA8)
+[2014.04.23-03.07.17:997][901]LogTexture:Display: Building textures: Texture2D_316 (BGRA8)
+[2014.04.23-03.07.17:999][901]LogTexture:Display: Building textures: Texture2D_317 (BGRA8)
+[2014.04.23-03.07.18:002][901]LogTexture:Display: Building textures: Texture2D_318 (BGRA8)
+[2014.04.23-03.07.18:003][901]LogTexture:Display: Building textures: Texture2D_319 (BGRA8)
+[2014.04.23-03.07.18:006][901]LogTexture:Display: Building textures: Texture2D_320 (BGRA8)
+[2014.04.23-03.07.18:008][901]LogTexture:Display: Building textures: Texture2D_321 (BGRA8)
+[2014.04.23-03.07.18:010][901]LogTexture:Display: Building textures: Texture2D_322 (BGRA8)
+[2014.04.23-03.07.18:012][901]LogTexture:Display: Building textures: Texture2D_323 (BGRA8)
+[2014.04.23-03.07.18:014][901]LogTexture:Display: Building textures: Texture2D_324 (BGRA8)
+[2014.04.23-03.07.18:017][901]LogTexture:Display: Building textures: Texture2D_325 (BGRA8)
+[2014.04.23-03.07.18:019][901]LogTexture:Display: Building textures: Texture2D_326 (BGRA8)
+[2014.04.23-03.07.18:021][901]LogTexture:Display: Building textures: Texture2D_327 (BGRA8)
+[2014.04.23-03.07.18:023][901]LogTexture:Display: Building textures: Texture2D_328 (BGRA8)
+[2014.04.23-03.07.18:025][901]LogTexture:Display: Building textures: Texture2D_329 (BGRA8)
+[2014.04.23-03.07.18:027][901]LogTexture:Display: Building textures: Texture2D_330 (BGRA8)
+[2014.04.23-03.07.18:029][901]LogTexture:Display: Building textures: Texture2D_331 (BGRA8)
+[2014.04.23-03.07.18:031][901]LogTexture:Display: Building textures: Texture2D_332 (BGRA8)
+[2014.04.23-03.07.18:033][901]LogTexture:Display: Building textures: Texture2D_333 (BGRA8)
+[2014.04.23-03.07.18:035][901]LogTexture:Display: Building textures: Texture2D_334 (BGRA8)
+[2014.04.23-03.07.18:037][901]LogTexture:Display: Building textures: Texture2D_335 (BGRA8)
+[2014.04.23-03.07.18:039][901]LogTexture:Display: Building textures: Texture2D_336 (BGRA8)
+[2014.04.23-03.07.18:042][901]LogTexture:Display: Building textures: Texture2D_337 (BGRA8)
+[2014.04.23-03.07.18:044][901]LogTexture:Display: Building textures: Texture2D_338 (BGRA8)
+[2014.04.23-03.07.18:046][901]LogTexture:Display: Building textures: Texture2D_339 (BGRA8)
+[2014.04.23-03.07.18:047][901]LogTexture:Display: Building textures: Texture2D_340 (BGRA8)
+[2014.04.23-03.07.18:049][901]LogTexture:Display: Building textures: Texture2D_341 (BGRA8)
+[2014.04.23-03.07.18:051][901]LogTexture:Display: Building textures: Texture2D_342 (BGRA8)
+[2014.04.23-03.07.18:053][901]LogTexture:Display: Building textures: Texture2D_343 (BGRA8)
+[2014.04.23-03.07.18:055][901]LogTexture:Display: Building textures: Texture2D_344 (BGRA8)
+[2014.04.23-03.07.18:057][901]LogTexture:Display: Building textures: Texture2D_345 (BGRA8)
+[2014.04.23-03.07.18:059][901]LogTexture:Display: Building textures: Texture2D_346 (BGRA8)
+[2014.04.23-03.07.18:090][901]LogTexture:Display: Building textures: Texture2D_347 (BGRA8)
+[2014.04.23-03.07.18:092][901]LogTexture:Display: Building textures: Texture2D_348 (BGRA8)
+[2014.04.23-03.07.18:094][901]LogTexture:Display: Building textures: Texture2D_349 (BGRA8)
+[2014.04.23-03.07.18:096][901]LogTexture:Display: Building textures: Texture2D_350 (BGRA8)
+[2014.04.23-03.07.18:135][901]LogTexture:Display: Building textures: Texture2D_351 (BGRA8)
+[2014.04.23-03.07.18:137][901]LogTexture:Display: Building textures: Texture2D_352 (BGRA8)
+[2014.04.23-03.07.18:140][901]LogTexture:Display: Building textures: Texture2D_353 (BGRA8)
+[2014.04.23-03.07.18:142][901]LogTexture:Display: Building textures: Texture2D_354 (BGRA8)
+[2014.04.23-03.07.18:144][901]LogTexture:Display: Building textures: Texture2D_355 (BGRA8)
+[2014.04.23-03.07.18:146][901]LogTexture:Display: Building textures: Texture2D_356 (BGRA8)
+[2014.04.23-03.07.18:148][901]LogTexture:Display: Building textures: Texture2D_357 (BGRA8)
+[2014.04.23-03.07.18:150][901]LogTexture:Display: Building textures: Texture2D_358 (BGRA8)
+[2014.04.23-03.07.18:153][901]LogTexture:Display: Building textures: Texture2D_359 (BGRA8)
+[2014.04.23-03.07.18:155][901]LogTexture:Display: Building textures: Texture2D_360 (BGRA8)
+[2014.04.23-03.07.18:157][901]LogTexture:Display: Building textures: Texture2D_361 (BGRA8)
+[2014.04.23-03.07.18:159][901]LogTexture:Display: Building textures: Texture2D_362 (BGRA8)
+[2014.04.23-03.07.18:161][901]LogTexture:Display: Building textures: Texture2D_363 (BGRA8)
+[2014.04.23-03.07.18:163][901]LogTexture:Display: Building textures: Texture2D_364 (BGRA8)
+[2014.04.23-03.07.18:166][901]LogTexture:Display: Building textures: Texture2D_365 (BGRA8)
+[2014.04.23-03.07.18:168][901]LogTexture:Display: Building textures: Texture2D_366 (BGRA8)
+[2014.04.23-03.07.18:182][901]LogTexture:Display: Building textures: Texture2D_367 (BGRA8)
+[2014.04.23-03.07.18:184][901]LogTexture:Display: Building textures: Texture2D_368 (BGRA8)
+[2014.04.23-03.07.18:188][901]LogTexture:Display: Building textures: Texture2D_369 (BGRA8)
+[2014.04.23-03.07.18:190][901]LogTexture:Display: Building textures: Texture2D_370 (BGRA8)
+[2014.04.23-03.07.18:192][901]LogTexture:Display: Building textures: Texture2D_371 (BGRA8)
+[2014.04.23-03.07.18:194][901]LogTexture:Display: Building textures: Texture2D_372 (BGRA8)
+[2014.04.23-03.07.18:196][901]LogTexture:Display: Building textures: Texture2D_373 (BGRA8)
+[2014.04.23-03.07.18:198][901]LogTexture:Display: Building textures: Texture2D_374 (BGRA8)
+[2014.04.23-03.07.18:200][901]LogTexture:Display: Building textures: Texture2D_375 (BGRA8)
+[2014.04.23-03.07.18:203][901]LogTexture:Display: Building textures: Texture2D_376 (BGRA8)
+[2014.04.23-03.07.18:205][901]LogTexture:Display: Building textures: Texture2D_377 (BGRA8)
+[2014.04.23-03.07.18:207][901]LogTexture:Display: Building textures: Texture2D_378 (BGRA8)
+[2014.04.23-03.07.18:210][901]LogTexture:Display: Building textures: Texture2D_379 (BGRA8)
+[2014.04.23-03.07.18:212][901]LogTexture:Display: Building textures: Texture2D_380 (BGRA8)
+[2014.04.23-03.07.18:215][901]LogTexture:Display: Building textures: Texture2D_381 (BGRA8)
+[2014.04.23-03.07.18:217][901]LogTexture:Display: Building textures: Texture2D_382 (BGRA8)
+[2014.04.23-03.07.18:219][901]LogTexture:Display: Building textures: Texture2D_383 (BGRA8)
+[2014.04.23-03.07.18:234][901]LogTexture:Display: Building textures: Texture2D_384 (BGRA8)
+[2014.04.23-03.07.18:236][901]LogTexture:Display: Building textures: Texture2D_385 (BGRA8)
+[2014.04.23-03.07.18:238][901]LogTexture:Display: Building textures: Texture2D_386 (BGRA8)
+[2014.04.23-03.07.18:241][901]LogTexture:Display: Building textures: Texture2D_387 (BGRA8)
+[2014.04.23-03.07.18:243][901]LogTexture:Display: Building textures: Texture2D_388 (BGRA8)
+[2014.04.23-03.07.18:245][901]LogTexture:Display: Building textures: Texture2D_389 (BGRA8)
+[2014.04.23-03.07.18:247][901]LogTexture:Display: Building textures: Texture2D_390 (BGRA8)
+[2014.04.23-03.07.18:249][901]LogTexture:Display: Building textures: Texture2D_391 (BGRA8)
+[2014.04.23-03.07.18:251][901]LogTexture:Display: Building textures: Texture2D_392 (BGRA8)
+[2014.04.23-03.07.18:282][901]LogTexture:Display: Building textures: Texture2D_393 (BGRA8)
+[2014.04.23-03.07.18:285][901]LogTexture:Display: Building textures: Texture2D_394 (BGRA8)
+[2014.04.23-03.07.18:287][901]LogTexture:Display: Building textures: Texture2D_395 (BGRA8)
+[2014.04.23-03.07.18:290][901]LogTexture:Display: Building textures: Texture2D_396 (BGRA8)
+[2014.04.23-03.07.18:292][901]LogTexture:Display: Building textures: Texture2D_397 (BGRA8)
+[2014.04.23-03.07.18:294][901]LogTexture:Display: Building textures: Texture2D_398 (BGRA8)
+[2014.04.23-03.07.18:297][901]LogTexture:Display: Building textures: Texture2D_399 (BGRA8)
+[2014.04.23-03.07.18:317][901]LogTexture:Display: Building textures: Texture2D_400 (BGRA8)
+[2014.04.23-03.07.18:319][901]LogTexture:Display: Building textures: Texture2D_401 (BGRA8)
+[2014.04.23-03.07.18:321][901]LogTexture:Display: Building textures: Texture2D_402 (BGRA8)
+[2014.04.23-03.07.18:322][901]LogTexture:Display: Building textures: Texture2D_403 (BGRA8)
+[2014.04.23-03.07.18:353][901]LogTexture:Display: Building textures: Texture2D_404 (BGRA8)
+[2014.04.23-03.07.18:355][901]LogTexture:Display: Building textures: Texture2D_405 (BGRA8)
+[2014.04.23-03.07.18:373][901]LogTexture:Display: Building textures: Texture2D_406 (BGRA8)
+[2014.04.23-03.07.18:375][901]LogTexture:Display: Building textures: Texture2D_407 (BGRA8)
+[2014.04.23-03.07.18:377][901]LogTexture:Display: Building textures: Texture2D_408 (BGRA8)
+[2014.04.23-03.07.18:380][901]LogTexture:Display: Building textures: Texture2D_409 (BGRA8)
+[2014.04.23-03.07.18:382][901]LogTexture:Display: Building textures: Texture2D_410 (BGRA8)
+[2014.04.23-03.07.18:384][901]LogTexture:Display: Building textures: Texture2D_411 (BGRA8)
+[2014.04.23-03.07.18:401][901]LogTexture:Display: Building textures: Texture2D_412 (BGRA8)
+[2014.04.23-03.07.18:403][901]LogTexture:Display: Building textures: Texture2D_413 (BGRA8)
+[2014.04.23-03.07.18:405][901]LogTexture:Display: Building textures: Texture2D_414 (BGRA8)
+[2014.04.23-03.07.18:407][901]LogTexture:Display: Building textures: Texture2D_415 (BGRA8)
+[2014.04.23-03.07.18:409][901]LogTexture:Display: Building textures: Texture2D_416 (BGRA8)
+[2014.04.23-03.07.18:411][901]LogTexture:Display: Building textures: Texture2D_417 (BGRA8)
+[2014.04.23-03.07.18:413][901]LogTexture:Display: Building textures: Texture2D_418 (BGRA8)
+[2014.04.23-03.07.18:415][901]LogTexture:Display: Building textures: Texture2D_419 (BGRA8)
+[2014.04.23-03.07.18:416][901]LogTexture:Display: Building textures: Texture2D_420 (BGRA8)
+[2014.04.23-03.07.18:419][901]LogTexture:Display: Building textures: Texture2D_421 (BGRA8)
+[2014.04.23-03.07.18:421][901]LogTexture:Display: Building textures: Texture2D_422 (BGRA8)
+[2014.04.23-03.07.18:445][901]LogTexture:Display: Building textures: Texture2D_423 (BGRA8)
+[2014.04.23-03.07.18:447][901]LogTexture:Display: Building textures: Texture2D_424 (BGRA8)
+[2014.04.23-03.07.18:449][901]LogTexture:Display: Building textures: Texture2D_425 (BGRA8)
+[2014.04.23-03.07.18:451][901]LogTexture:Display: Building textures: Texture2D_426 (BGRA8)
+[2014.04.23-03.07.18:452][901]LogTexture:Display: Building textures: Texture2D_427 (BGRA8)
+[2014.04.23-03.07.18:454][901]LogTexture:Display: Building textures: Texture2D_428 (BGRA8)
+[2014.04.23-03.07.18:456][901]LogTexture:Display: Building textures: Texture2D_429 (BGRA8)
+[2014.04.23-03.07.18:458][901]LogTexture:Display: Building textures: Texture2D_430 (BGRA8)
+[2014.04.23-03.07.18:459][901]LogTexture:Display: Building textures: Texture2D_431 (BGRA8)
+[2014.04.23-03.07.18:461][901]LogTexture:Display: Building textures: Texture2D_432 (BGRA8)
+[2014.04.23-03.07.18:463][901]LogTexture:Display: Building textures: Texture2D_433 (BGRA8)
+[2014.04.23-03.07.18:465][901]LogTexture:Display: Building textures: Texture2D_434 (BGRA8)
+[2014.04.23-03.07.18:495][901]LogTexture:Display: Building textures: Texture2D_435 (BGRA8)
+[2014.04.23-03.07.18:498][901]LogTexture:Display: Building textures: Texture2D_436 (BGRA8)
+[2014.04.23-03.07.18:501][901]LogTexture:Display: Building textures: Texture2D_437 (BGRA8)
+[2014.04.23-03.07.18:503][901]LogTexture:Display: Building textures: Texture2D_438 (BGRA8)
+[2014.04.23-03.07.18:504][901]LogTexture:Display: Building textures: Texture2D_439 (BGRA8)
+[2014.04.23-03.07.18:506][901]LogTexture:Display: Building textures: Texture2D_440 (BGRA8)
+[2014.04.23-03.07.18:508][901]LogTexture:Display: Building textures: Texture2D_441 (BGRA8)
+[2014.04.23-03.07.18:510][901]LogTexture:Display: Building textures: Texture2D_442 (BGRA8)
+[2014.04.23-03.07.18:512][901]LogTexture:Display: Building textures: Texture2D_443 (BGRA8)
+[2014.04.23-03.07.18:514][901]LogTexture:Display: Building textures: Texture2D_444 (BGRA8)
+[2014.04.23-03.07.18:536][901]LogTexture:Display: Building textures: Texture2D_445 (BGRA8)
+[2014.04.23-03.07.18:538][901]LogTexture:Display: Building textures: Texture2D_446 (BGRA8)
+[2014.04.23-03.07.18:540][901]LogTexture:Display: Building textures: Texture2D_447 (BGRA8)
+[2014.04.23-03.07.18:542][901]LogTexture:Display: Building textures: Texture2D_448 (BGRA8)
+[2014.04.23-03.07.18:543][901]LogTexture:Display: Building textures: Texture2D_449 (BGRA8)
+[2014.04.23-03.07.18:545][901]LogTexture:Display: Building textures: Texture2D_450 (BGRA8)
+[2014.04.23-03.07.18:547][901]LogTexture:Display: Building textures: Texture2D_451 (BGRA8)
+[2014.04.23-03.07.18:549][901]LogTexture:Display: Building textures: Texture2D_452 (BGRA8)
+[2014.04.23-03.07.18:564][901]LogTexture:Display: Building textures: Texture2D_453 (BGRA8)
+[2014.04.23-03.07.18:567][901]LogTexture:Display: Building textures: Texture2D_454 (BGRA8)
+[2014.04.23-03.07.18:569][901]LogTexture:Display: Building textures: Texture2D_455 (BGRA8)
+[2014.04.23-03.07.18:571][901]LogTexture:Display: Building textures: Texture2D_456 (BGRA8)
+[2014.04.23-03.07.18:572][901]LogTexture:Display: Building textures: Texture2D_457 (BGRA8)
+[2014.04.23-03.07.18:574][901]LogTexture:Display: Building textures: Texture2D_458 (BGRA8)
+[2014.04.23-03.07.18:576][901]LogTexture:Display: Building textures: Texture2D_459 (BGRA8)
+[2014.04.23-03.07.18:578][901]LogTexture:Display: Building textures: Texture2D_460 (BGRA8)
+[2014.04.23-03.07.18:580][901]LogTexture:Display: Building textures: Texture2D_461 (BGRA8)
+[2014.04.23-03.07.18:582][901]LogTexture:Display: Building textures: Texture2D_462 (BGRA8)
+[2014.04.23-03.07.18:584][901]LogTexture:Display: Building textures: Texture2D_463 (BGRA8)
+[2014.04.23-03.07.18:585][901]LogTexture:Display: Building textures: Texture2D_464 (BGRA8

@@ -1,0 +1,1410 @@
+Log file open, 04/21/14 14:44:49
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.0.2-2034640+++depot+UE4-Releases+4.0
+LogInit: Compiled (64-bit): Mar 27 2014 09:55:26
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.0
+LogInit: Command line: 
+LogInit: Base directory: U:/Program Files/Unreal Engine/4.0/Engine/Binaries/Win64/
+[2014.04.21-19.44.49:726][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.04.21-19.44.49:753][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.04.21-19.44.49:760][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.04.21-19.44.49:768][  0]LogInit: Object subsystem initialized
+[2014.04.21-19.44.49:770][  0]LogInit: Selected Device Profile: [Windows]
+[2014.04.21-19.44.49:770][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.04.21-19.44.49:785][  0]LogInit: Computer: IKEKUDEYG-PC
+[2014.04.21-19.44.49:785][  0]LogInit: User: Ikekudeyg
+[2014.04.21-19.44.49:812][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.04.21-19.44.49:812][  0]LogInit: High frequency timer resolution =3.037558 MHz
+[2014.04.21-19.44.49:812][  0]LogInit: Memory total: Physical=8.0GB (8GB approx) Pagefile=8184.0GB Virtual=8192.0GB
+[2014.04.21-19.44.49:888][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2014.04.21-19.44.49:888][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory
+[2014.04.21-19.44.50:055][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.04.21-19.44.50:066][  0]LogD3D11RHI: Async texture creation enabled
+[2014.04.21-19.44.50:136][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.21-19.44.50:166][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.04.21-19.44.50:189][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.04.21-19.44.51:044][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.21-19.44.51:121][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.21-19.44.51:154][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.04.21-19.44.51:232][  0]LogDerivedDataCache: Loaded boot cache 0.08s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.21-19.44.51:232][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc
+[2014.04.21-19.44.51:258][  0]LogDerivedDataCache:Display: Pak cache opened for reading C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp.
+[2014.04.21-19.44.51:264][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.04.21-19.44.51:275][  0]LogDerivedDataCache: Using Local data cache path C:/ProgramData/Epic/Engine/DerivedDataCache: Writable
+[2014.04.21-19.44.51:313][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperEditor.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.21-19.44.51:313][  0]LogModuleManager:Warning: Found module file ../../../Engine/Plugins/Experimental/SlateComponentWrappers/Binaries/Win64/UE4Editor-SlateComponentWrapperRuntime.dll (version 1 0 0 44392), but it was incompatible with the current engine version (4 0 0 0). This is likely a stale module that must be recompiled.
+[2014.04.21-19.44.51:467][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.04.21-19.44.51:467][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.04.21-19.44.51:760][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.04.21-19.44.51:760][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.04.21-19.44.51:760][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.04.21-19.44.51:760][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.04.21-19.44.52:459][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.04.21-19.44.52:531][  0]SourceControl: Info Source control is disabled
+[2014.04.21-19.44.52:531][  0]SourceControl: Info Source control is disabled
+[2014.04.21-19.44.52:536][  0]SourceControl: Info Source control is disabled
+[2014.04.21-19.44.52:620][  0]BlueprintLog: New page: Editor Load
+[2014.04.21-19.44.52:654][  0]LogObj: 18309 objects as part of root set at end of initial load.
+[2014.04.21-19.44.52:654][  0]LogUObjectAllocator: 3622464 out of 0 bytes used by permanent object pool.
+[2014.04.21-19.44.52:894][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.21-19.44.52:894][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.21-19.44.52:894][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (U:/Program Files/Unreal Engine/4.0/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.21-19.44.52:895][  0]LogEngine: Initializing Engine...
+[2014.04.21-19.44.53:040][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.04.21-19.44.53:049][  0]LogInit: FAudioDevice initialized.
+[2014.04.21-19.44.53:097][  0]LogDerivedDataCache: Saved boot cache 0.04s 37MB C:/ProgramData/Epic/Engine/DerivedDataCache/Boot.ddc.
+[2014.04.21-19.44.53:107][  0]LogInit: Texture streaming: Enabled
+[2014.04.21-19.44.53:119][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2014.04.21-19.44.53:119][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.0.2-2034640+++depot+UE4-Releases+4.0
+[2014.04.21-19.44.53:121][  0]LogAnalytics: SetUserId 41c2970e0d96e3ee2dc9913591dc455f
+[2014.04.21-19.44.53:121][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2014.04.21-19.44.53:293][  0]LogInit: Transaction tracking system initialized
+[2014.04.21-19.44.53:387][  0]LogAssetRegistry: FAssetRegistry took 0.009702 seconds to start up
+[2014.04.21-19.44.53:513][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.21-19.44.53:517][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.21-19.44.53:564][  0]LogConsoleResponse:Display: 
+[2014.04.21-19.44.53:813][  0]SourceControl: Info Source control is disabled
+[2014.04.21-19.44.53:813][  0]Cmd: MAP LOAD FILE="C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.21-19.44.53:830][  0]LightingResults: New page: Lighting Build
+[2014.04.21-19.44.53:836][  0]MapCheck: New page: Map Check
+[2014.04.21-19.44.53:836][  0]LightingResults: New page: Lighting Build
+[2014.04.21-19.44.53:855][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001224F600
+[2014.04.21-19.44.54:780][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.21-19.44.54:780][  0]Cmd: MAP CHECKDEP
+[2014.04.21-19.44.54:781][  0]MapCheck: New page: Example_Map - Apr 21, 2014, 9:44:54 AM
+[2014.04.21-19.44.54:808][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [27.246ms] ==========
+[2014.04.21-19.44.54:808][  0]LogFileHelpers: Loading map 'Example_Map' took 0.995
+[2014.04.21-19.44.54:918][  0]LogCollectionManager: Loaded 0 collections in 0.001026 seconds
+[2014.04.21-19.44.54:932][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.04.21-19.44.55:003][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.04.21-19.44.55:003][  0]Cmd: MODE PLACEMENT
+[2014.04.21-19.44.55:076][  0]LogLoad: Full Startup: 6.50 seconds (BP compile: 0.10 seconds)
+[2014.04.21-19.44.55:286][  0]LogRenderer:Warning: Reallocating scene render targets to support 848x736.
+[2014.04.21-19.44.55:466][  1]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>EB205E095F22C0C3</RequestId><HostId>Pue58Md9uWYcurIKL5pOy5jxdhDXxyOf3zKWZAhHawjSYobOOB4lCHc4NZVTBRtE</HostId></Error>
+[2014.04.21-19.44.55:840][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>E30B195A65659D51</RequestId><HostId>eBTl9ZAWtXu9WaoC9adtbOYbjoOOfhoXMzV5hclfM+wwdldEjv9sMLPlG7mmhixf</HostId></Error>
+[2014.04.21-19.44.55:970][  3]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>C9FAE77078FFC249</RequestId><HostId>ZpP/T9BaEMT9E8if5P4K5rd8zyckDRieNVbZ7hGZklj+yNSYYLYPR6vy0o6izhWg</HostId></Error>
+[2014.04.21-19.44.58:745][126]LogAssetRegistry: Asset discovery search completed in 5.368452 seconds
+[2014.04.21-19.45.09:026][286]Cmd: MAP LOAD FILE="C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Maps/StarterMap.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.21-19.45.09:026][286]LightingResults: New page: Lighting Build
+[2014.04.21-19.45.09:037][286]LoadErrors: New page: Loading map: StarterMap.umap
+[2014.04.21-19.45.09:037][286]MapCheck: New page: Map Check
+[2014.04.21-19.45.09:038][286]LightingResults: New page: Lighting Build
+[2014.04.21-19.45.09:302][286]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DFBEB60
+[2014.04.21-19.45.09:328][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Props/SM_Lamp_Ceiling.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.09:374][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Blueprints/Blueprint_Effect_Fire.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.09:443][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Blueprints/Blueprint_Effect_Smoke.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.09:475][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Blueprints/Blueprint_Effect_Sparks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.09:514][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Blueprints/Blueprint_Effect_Steam.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.10:612][286]LogLinker:Warning: Asset 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/Props/MaterialSphere.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.04.21-19.45.12:575][286]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling.
+[2014.04.21-19.45.13:249][286]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.21-19.45.13:258][286]Cmd: MAP CHECKDEP
+[2014.04.21-19.45.13:258][286]MapCheck: New page: StarterMap - Apr 21, 2014, 9:45:13 AM
+[2014.04.21-19.45.13:310][286]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [51.447ms] ==========
+[2014.04.21-19.45.13:310][286]LogFileHelpers: Loading map 'StarterMap' took 4.284
+[2014.04.21-19.45.30:164][755]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.21-19.45.30:440][755]LogPlayLevel: [PIE] Compiling TemplateRoom2 before PIE...
+[2014.04.21-19.45.30:560][755]LogPlayLevel: PIE:  Blueprint regeneration took 395 ms (1 blueprints)
+[2014.04.21-19.45.30:560][755]PIE: New page: PIE session: StarterMap (Apr 21, 2014, 9:45:30 AM)
+[2014.04.21-19.45.30:597][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036480s)
+[2014.04.21-19.45.30:598][755]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2014.04.21-19.45.30:598][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StarterMap.StarterMap to /Game/Maps/UEDPIE_0_StarterMap.StarterMap (0.037817s)
+[2014.04.21-19.45.31:032][755]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.45.31:158][755]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StarterMap.StarterMap up for play (max tick rate 0) at 2014.04.21-14.45.31
+[2014.04.21-19.45.31:194][755]LogWorld: Bringing up level for play took: 0.053274
+[2014.04.21-19.45.31:196][755]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.04.21-19.45.31:196][755]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.04.21-19.45.31:234][755]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_StarterMap 1.388
+[2014.04.21-19.46.15:723][736]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A969760
+[2014.04.21-19.46.27:494][ 79]Cmd: MAP LOAD FILE="C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Content/xcz.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.21-19.46.27:494][ 79]LightingResults: New page: Lighting Build
+[2014.04.21-19.46.27:505][ 79]LoadErrors: New page: Loading map: xcz.umap
+[2014.04.21-19.46.27:509][ 79]MapCheck: New page: Map Check
+[2014.04.21-19.46.27:509][ 79]LightingResults: New page: Lighting Build
+[2014.04.21-19.46.27:687][ 79]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A96BBA0
+[2014.04.21-19.46.29:267][ 79]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.21-19.46.29:276][ 79]Cmd: MAP CHECKDEP
+[2014.04.21-19.46.29:276][ 79]MapCheck: New page: xcz - Apr 21, 2014, 9:46:29 AM
+[2014.04.21-19.46.29:325][ 79]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [49.279ms] ==========
+[2014.04.21-19.46.29:325][ 79]LogFileHelpers: Loading map 'xcz' took 1.832
+[2014.04.21-19.46.30:091][ 80]Cmd: UpdateLandscapeEditorData -warnings
+[2014.04.21-19.46.30:096][ 80]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.46.32:942][208]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.21-19.46.32:942][208]PIE: New page: PIE session: xcz (Apr 21, 2014, 9:46:32 AM)
+[2014.04.21-19.46.33:129][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186795s)
+[2014.04.21-19.46.33:130][208]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2014.04.21-19.46.33:130][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/xcz.xcz to /Game/UEDPIE_0_xcz.xcz (0.188124s)
+[2014.04.21-19.46.33:131][208]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.46.33:201][208]LogWorld: Bringing World /Game/UEDPIE_0_xcz.xcz up for play (max tick rate 0) at 2014.04.21-14.46.33
+[2014.04.21-19.46.33:207][208]LogWorld: Bringing up level for play took: 0.048283
+[2014.04.21-19.46.33:208][208]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.04.21-19.46.33:242][208]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
+[2014.04.21-19.46.33:242][208]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
+[2014.04.21-19.46.33:246][208]PIE: Info Play in editor start time for /Game/UEDPIE_0_xcz -0.601
+[2014.04.21-19.46.38:372][415]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AA81440
+[2014.04.21-19.46.59:759][519]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.21-19.46.59:759][519]PIE: New page: PIE session: xcz (Apr 21, 2014, 9:46:59 AM)
+[2014.04.21-19.46.59:942][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.183262s)
+[2014.04.21-19.46.59:944][519]LogPlayLevel: PIE: World Init took: (0.001384s)
+[2014.04.21-19.46.59:944][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/xcz.xcz to /Game/UEDPIE_0_xcz.xcz (0.184917s)
+[2014.04.21-19.46.59:944][519]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.47.00:013][519]LogWorld: Bringing World /Game/UEDPIE_0_xcz.xcz up for play (max tick rate 0) at 2014.04.21-14.47.00
+[2014.04.21-19.47.00:020][519]LogWorld: Bringing up level for play took: 0.048434
+[2014.04.21-19.47.00:021][519]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.04.21-19.47.00:023][519]LogPlayerController: ClientRestart_Implementation MyCharacter_C_2
+[2014.04.21-19.47.00:023][519]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_2
+[2014.04.21-19.47.00:027][519]PIE: Info Play in editor start time for /Game/UEDPIE_0_xcz 0.18
+[2014.04.21-19.47.03:471][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CBDF560
+[2014.04.21-19.47.08:793][906]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.21-19.47.08:793][906]PIE: New page: PIE session: xcz (Apr 21, 2014, 9:47:08 AM)
+[2014.04.21-19.47.08:981][906]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187663s)
+[2014.04.21-19.47.08:982][906]LogPlayLevel: PIE: World Init took: (0.001323s)
+[2014.04.21-19.47.08:983][906]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/xcz.xcz to /Game/UEDPIE_0_xcz.xcz (0.189302s)
+[2014.04.21-19.47.08:983][906]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.47.09:054][906]LogWorld: Bringing World /Game/UEDPIE_0_xcz.xcz up for play (max tick rate 0) at 2014.04.21-14.47.09
+[2014.04.21-19.47.09:061][906]LogWorld: Bringing up level for play took: 0.047466
+[2014.04.21-19.47.09:062][906]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.04.21-19.47.09:063][906]LogPlayerController: ClientRestart_Implementation MyCharacter_C_3
+[2014.04.21-19.47.09:063][906]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_3
+[2014.04.21-19.47.09:068][906]PIE: Info Play in editor start time for /Game/UEDPIE_0_xcz 1.22
+[2014.04.21-19.47.11:947][997]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AA80D60
+[2014.04.21-19.47.19:788][336]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.04.21-19.47.36:582][ 73]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2014.04.21-19.47.47:953][474]Cmd: SELECT NONE
+[2014.04.21-19.49.47:375][ 67]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-19.50.05:216][833]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.04.21-19.50.07:161][922]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.04.21-19.50.08:193][969]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.04.21-19.50.16:705][341]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.04.21-19.50.26:338][609]LogRenderer:Warning: Reallocating scene render targets to support 1208x760.
+[2014.04.21-19.50.39:482][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.04.21-19.50.39:482][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.04.21-19.50.40:819][140]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.04.21-19.50.51:211][469]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.04.21-19.51.25:949][579]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.21-19.51.25:965][579]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.04.21-19.51.26:043][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.04.21-19.51.26:084][579]LogPlayLevel: PIE:  Blueprint regeneration took 134 ms (1 blueprints)
+[2014.04.21-19.51.26:084][579]PIE: New page: PIE session: xcz (Apr 21, 2014, 9:51:26 AM)
+[2014.04.21-19.51.26:272][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.187877s)
+[2014.04.21-19.51.26:273][579]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2014.04.21-19.51.26:273][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/xcz.xcz to /Game/UEDPIE_0_xcz.xcz (0.189134s)
+[2014.04.21-19.51.26:274][579]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.51.26:344][579]LogWorld: Bringing World /Game/UEDPIE_0_xcz.xcz up for play (max tick rate 0) at 2014.04.21-14.51.26
+[2014.04.21-19.51.26:351][579]LogWorld: Bringing up level for play took: 0.050344
+[2014.04.21-19.51.26:354][579]LogPlayerController: ClientRestart_Implementation MyCharacter_C_0
+[2014.04.21-19.51.26:354][579]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_0
+[2014.04.21-19.51.26:359][579]PIE: Info Play in editor start time for /Game/UEDPIE_0_xcz 0.509
+[2014.04.21-19.51.32:867][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.04.21-19.51.32:910][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C897D80
+[2014.04.21-19.51.32:947][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003CBDC360
+[2014.04.21-19.51.40:692][197]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.04.21-19.51.40:692][197]PIE: New page: PIE session: xcz (Apr 21, 2014, 9:51:40 AM)
+[2014.04.21-19.51.40:891][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.198327s)
+[2014.04.21-19.51.40:892][197]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2014.04.21-19.51.40:892][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/xcz.xcz to /Game/UEDPIE_0_xcz.xcz (0.200024s)
+[2014.04.21-19.51.40:893][197]LogWorld: Game class is 'MyGame_C'
+[2014.04.21-19.51.40:967][197]LogWorld: Bringing World /Game/UEDPIE_0_xcz.xcz up for play (max tick rate 0) at 2014.04.21-14.51.40
+[2014.04.21-19.51.40:974][197]LogWorld: Bringing up level for play took: 0.051625
+[2014.04.21-19.51.40:976][197]LogPlayerController: ClientRestart_Implementation MyCharacter_C_1
+[2014.04.21-19.51.40:976][197]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharacter_C_1
+[2014.04.21-19.51.40:981][197]PIE: Info Play in editor start time for /Game/UEDPIE_0_xcz 1.13
+[2014.04.21-19.51.45:183][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F8D71A0
+[2014.04.21-19.51.52:145][598]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.51.56:800][800]LogUObjectHash:Warning: Ambiguous search, could be Model /Engine/Transient.World_4:PersistentLevel.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.51.56:800][800]LogProperty:Warning: Illegal TEXT reference to a private object in external package (Model /Engine/Transient.World_4:PersistentLevel.Model_7) from referencer (BrushComponent /Game/xcz.xcz:PersistentLevel.BoxBrush_6.BrushComponent0).  Import failed...
+[2014.04.21-19.51.56:800][800]LogProperty:Warning: ObjectProperty /Script/Engine.BrushComponent:Brush: unresolved reference to 'Model'Model_7''
+[2014.04.21-19.51.58:030][838]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.51.58:815][839]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.03:258][ 26]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.03:285][ 27]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.07:863][189]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.07:888][190]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.12:495][356]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.12:520][357]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.17:836][546]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.17:861][547]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.22:834][714]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.23:593][715]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.30:082][972]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.30:861][973]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.34:412][ 82]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.38:100][234]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.38:862][235]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.43:440][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.43:442][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.43:444][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.43:445][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.52.43:447][432]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.52.47:434][597]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.48:198][598]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.48:880][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.48:932][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.49:027][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.49:143][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.49:274][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.52.50:068][613]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.52.59:261][ 13]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.53.00:057][ 14]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.53.03:974][181]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.53.04:743][182]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.53.04:824][182]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-19.53.28:654][476]Cmd: MODE PLACEMENT
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.53.33:101][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.53.33:103][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.53.33:104][622]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.53.38:711][880]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.53.39:474][881]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.54.38:437][461]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.54.39:177][479]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.54.39:948][480]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.44:719][677]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.54.44:743][678]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.48:403][810]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.54.48:427][811]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.53:353][  3]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.54.53:380][  4]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.56:031][ 71]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.54.56:802][ 72]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.54.59:392][165]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.00:155][166]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.00:987][186]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.01:752][187]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.07:474][414]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.08:237][415]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.13:442][617]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.14:203][618]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.15:675][643]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.16:438][644]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.19:237][727]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.19:996][728]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.29:009][924]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.29:863][925]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.30:205][927]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.30:988][928]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.35:776][ 88]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.36:545][ 89]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.55.42:343][234]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.55.49:271][508]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.50:037][509]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.55.55:066][652]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.55.55:835][653]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.56.01:481][824]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.56.03:150][883]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.56.03:903][884]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.09:737][ 33]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-19.56.12:172][ 93]Cmd: SELECT NONE
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.56.28:429][591]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.56.29:383][618]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.56.30:134][619]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.42:593][111]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.56.43:456][112]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.52:887][357]LogSavePackage: Save=872.070923ms
+[2014.04.21-19.56.52:887][357]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto1FA99C3ED40A408BF333A51A7864E52BE.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto1.umap'
+[2014.04.21-19.56.52:896][357]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 1.090
+[2014.04.21-19.56.52:896][357]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.090
+[2014.04.21-19.56.53:103][358]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.56.53:877][359]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.56:610][463]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.56.57:458][464]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.56.57:465][464]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-19.57.04:888][709]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.05:750][710]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.05:755][710]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-19.57.11:658][914]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.11:683][915]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.15:256][ 34]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.15:282][ 35]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.30:144][626]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.30:169][627]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.33:759][734]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.34:524][735]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.44:918][  4]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.45:701][  5]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.57.54:678][299]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.57.54:703][300]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.00:970][490]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.01:742][491]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.05:163][631]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.05:188][632]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.06:970][647]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.07:741][648]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.17:039][925]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.17:826][926]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.20:136][970]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.20:929][971]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.30:648][301]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.31:419][302]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.35:431][470]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.35:467][471]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.46:506][716]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.47:264][717]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.51:814][906]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.51:840][907]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.58.56:786][ 31]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.58.57:553][ 32]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.05:109][279]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.05:133][280]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.08:229][364]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.08:998][365]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.21:449][733]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.21:476][734]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.25:325][856]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.26:105][857]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-19.59.31:444][ 18]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-19.59.34:678][144]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.35:454][145]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.44:726][472]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.45:528][473]Cmd: UpdateLandscapeEditorData
+[2014.04.21-19.59.56:480][918]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-19.59.57:236][919]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.00.21:429][787]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.00.21:468][788]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.00.28:273][997]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.00.29:040][998]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.00.44:078][366]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.00.47:703][509]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.00.48:463][510]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.04:897][982]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.01.15:481][270]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.01.16:567][303]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.17:323][304]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.23:224][550]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.23:251][551]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.26:635][657]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.26:659][658]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.34:076][929]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.34:824][930]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.38:069][ 98]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.38:842][ 99]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.40:839][168]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.41:635][169]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.50:167][380]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.50:940][381]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.01.58:411][612]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.01.59:164][613]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.09:356][890]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.10:108][891]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.10:889][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.11:679][918]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.12:601][951]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.12:868][952]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.18:742][155]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.19:497][156]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.20:397][187]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.21:211][188]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.25:564][327]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.26:348][328]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.36:910][720]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.37:675][721]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.40:481][829]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.41:253][830]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.41:911][843]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.42:666][844]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.45:392][986]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.46:209][987]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.02.50:312][154]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.02.51:088][155]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.03.13:230][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.03.13:231][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.03.13:233][ 62]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.03.14:618][108]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.03.15:403][109]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.19:763][293]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.03.19:788][294]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.24:494][460]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.03.24:521][461]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.26:655][536]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.03.27:435][537]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.30:894][669]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.03.31:681][670]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.03.41:487][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.04.21-20.03.47:252][162]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.03.50:253][288]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.03.50:528][298]Cmd: SELECT NONE
+[2014.04.21-20.03.51:783][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2014.04.21-20.03.52:706][390]Cmd: DELETE
+[2014.04.21-20.03.52:706][390]Cmd: ACTOR DELETE
+[2014.04.21-20.03.52:710][390]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.03.52:711][390]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.04.21-20.03.52:763][390]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2014.04.21-20.03.53:631][428]Cmd: TRANSACTION UNDO
+[2014.04.21-20.03.53:631][428]LogEditorTransaction: Undo Delete Actors
+[2014.04.21-20.03.54:066][435]Cmd: TRANSACTION UNDO
+[2014.04.21-20.03.54:066][435]LogEditorTransaction: Undo Clicking on Actors
+[2014.04.21-20.03.55:689][469]Cmd: TRANSACTION UNDO
+[2014.04.21-20.03.55:689][469]LogEditorTransaction: Undo Select None
+[2014.04.21-20.03.56:235][491]Cmd: TRANSACTION UNDO
+[2014.04.21-20.03.56:235][491]LogEditorTransaction: Undo Create Actor
+[2014.04.21-20.03.59:650][596]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.04.06:359][872]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.04.10:158][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WindowFrame)
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.04.37:370][ 23]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.04.40:619][156]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.04.41:520][157]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.04.49:966][524]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.04.50:722][525]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.04.54:295][631]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.04.55:050][632]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.04.59:822][784]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.05.00:618][785]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.05.15:703][461]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.05.15:730][462]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.05.18:991][567]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.05.19:016][568]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.05.24:695][745]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.05.24:721][746]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.26:770][409]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.06.26:798][410]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.30:271][520]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.06.30:303][521]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.33:406][609]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.06.33:436][610]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.38:844][862]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.06.39:854][863]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.45:957][ 56]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.06.46:856][ 57]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.06.48:762][ 98]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.06.49:681][134]LogActorFactory: Actor Factory created SM_WindowFrame
+[2014.04.21-20.06.56:080][355]LogSavePackage: Save=952.442383ms
+[2014.04.21-20.06.56:080][355]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto2717885914786CD31104793A83223DF33.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto2.umap'
+[2014.04.21-20.06.56:089][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 1.078
+[2014.04.21-20.06.56:089][355]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.078
+[2014.04.21-20.07.30:271][602]LogActorFactory: Actor Factory created SM_DoorFrame
+[2014.04.21-20.07.34:488][770]LogActorFactory: Actor Factory created SM_DoorFrame
+[2014.04.21-20.07.54:582][319]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.04.21-20.11.07:461][943]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.11.16:158][191]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.11.31:393][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.11.31:394][644]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.11.34:801][767]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.11.35:611][768]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.01:964][494]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.01:995][495]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.06:561][634]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.06:586][635]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.15:587][950]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.15:616][951]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.19:646][ 61]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.20:445][ 62]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.30:392][338]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.31:184][339]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.34:399][443]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.35:206][444]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.40:655][646]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.40:683][647]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.45:710][789]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.12.51:717][968]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.12.52:660][969]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.12.53:667][  7]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.12.54:696][ 47]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.13.01:966][329]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.13.01:996][330]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.13.05:484][423]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.14.12:699][643]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.14.13:330][666]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.14.49:217][870]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.14.49:241][871]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.14.56:672][148]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.14.56:699][149]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.07:951][439]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.07:981][440]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.10:854][517]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.10:882][518]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.15:524][666]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.15:551][667]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.17:824][719]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.17:853][720]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.25:767][972]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.25:797][973]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.36:613][222]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.37:487][223]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.46:881][517]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.47:702][518]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.15.58:722][797]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.15.59:537][798]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.16.07:552][952]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.16.08:372][953]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.16.57:149][996]LogSavePackage: Save=882.606689ms
+[2014.04.21-20.16.57:149][996]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto30A0FF422442F96F748A69F9E5A95E181.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto3.umap'
+[2014.04.21-20.16.57:162][996]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 0.985
+[2014.04.21-20.16.57:162][996]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.985
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.17.32:918][449]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.17.33:992][481]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.17.34:739][482]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.18.55:244][976]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.18.55:984][977]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.19.10:684][537]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.19.10:708][538]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.19.19:551][872]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.19.19:574][873]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.19.26:531][ 91]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.19.27:257][ 92]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.19.38:861][421]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.19.39:594][422]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.19.40:496][458]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.20.10:734][151]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.20.11:464][152]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.20:496][182]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.21.21:318][183]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.30:305][374]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.21.31:142][375]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.35:258][535]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.21.35:288][536]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.41:122][724]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.21.41:979][725]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.51:008][ 31]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.21.51:037][ 32]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.21.55:688][146]Cmd: SELECT NONE
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.22.35:471][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.22.35:472][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.22.35:472][162]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.22.38:418][269]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.22.39:258][270]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.22.46:606][510]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.22.46:635][511]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.22.53:185][674]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.22.54:048][675]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.23.14:224][360]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.23.14:249][361]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.23.19:609][531]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.23.20:454][532]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.23.48:021][251]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.04.21-20.23.55:130][447]LogActorFactory: Actor Factory created SM_GlassWindow
+[2014.04.21-20.23.57:568][539]LogActorFactory: Actor Factory created SM_GlassWindow
+[2014.04.21-20.24.02:636][705]Cmd: DELETE
+[2014.04.21-20.24.02:636][705]Cmd: ACTOR DELETE
+[2014.04.21-20.24.02:641][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.24.02:697][705]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2014.04.21-20.24.33:780][847]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.04.21-20.24.54:009][524]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.04.21-20.24.59:680][733]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.25.05:881][842]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.21-20.25.06:637][872]Cmd: SELECT NONE
+[2014.04.21-20.25.15:841][175]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.04.21-20.25.42:167][788]LogActorFactory: Actor Factory created SM_PillarFrame300
+[2014.04.21-20.25.44:252][865]LogActorFactory: Actor Factory created SM_PillarFrame300
+[2014.04.21-20.25.48:044][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame300)
+[2014.04.21-20.26.46:878][907]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.26.46:905][908]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.26.51:088][  0]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.26.51:114][  1]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.26.57:442][171]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.26.57:473][172]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.26.59:373][173]LogSavePackage: Save=864.338379ms
+[2014.04.21-20.26.59:373][173]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto46C223B7F463CDC2D5BBF1896E32694F5.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto4.umap'
+[2014.04.21-20.26.59:405][173]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 1.013
+[2014.04.21-20.26.59:405][173]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.013
+[2014.04.21-20.27.08:902][471]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.08:933][472]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.27.11:945][550]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.11:974][551]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.27.23:672][873]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.23:699][874]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.27.26:314][937]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.26:343][938]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.27.37:434][261]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.27.41:700][428]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.41:737][429]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.27.44:124][485]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.27.44:155][486]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.28.48:010][926]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.28.48:038][927]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.28.52:405][ 67]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.28.52:443][ 68]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.28.56:637][209]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.28.56:667][210]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.29.02:798][386]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.29.02:827][387]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.29.06:206][481]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.29.06:233][482]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.29.11:061][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame301)
+[2014.04.21-20.29.28:922][981]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame300)
+[2014.04.21-20.29.58:137][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame301)
+[2014.04.21-20.30.01:870][201]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.21-20.30.12:557][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame300)
+[2014.04.21-20.31.39:738][266]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.31.40:576][267]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.31.47:635][411]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.31.48:447][412]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.31.53:034][560]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.31.54:086][561]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.31.55:980][619]LogGeometryMode:Warning: Unable to find BoxBrush_24 Brush(s) in new BSP
+[2014.04.21-20.31.55:980][619]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2014.04.21-20.32.01:040][797]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.32.01:890][798]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.32.08:560][ 28]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.32.14:287][213]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.32.15:105][214]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.32.15:785][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.32.28:644][603]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.32.29:455][604]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.32.48:315][ 58]Cmd: MODE PLACEMENT
+[2014.04.21-20.32.49:354][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame300)
+[2014.04.21-20.33.08:744][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame302)
+[2014.04.21-20.33.18:332][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame300)
+[2014.04.21-20.33.33:355][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame302)
+[2014.04.21-20.33.37:154][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame303)
+[2014.04.21-20.33.43:660][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PillarFrame301)
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.34.03:138][541]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.34.05:470][620]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.06:209][621]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.16:909][ 41]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.16:933][ 42]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.21:931][197]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.22:709][198]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.28:037][326]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.28:768][327]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.30:921][397]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.31:651][398]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.44:117][868]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.44:852][869]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.48:038][932]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.48:773][933]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.51:892][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.52:619][ 45]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.34.55:535][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7
+[2014.04.21-20.34.55:535][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7
+[2014.04.21-20.34.55:535][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7
+[2014.04.21-20.34.55:535][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.34.55:536][148]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.34.57:094][199]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.34.57:821][200]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.35.00:727][304]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.35.01:468][305]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.35.04:728][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.35.04:729][398]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.35.06:702][466]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.35.07:426][467]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_40.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_32.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_31.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_30.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_29.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_28.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_33.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_26.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_25.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_24.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_23.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_27.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_21.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_20.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_19.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_18.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_22.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_16.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_15.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_17.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_13.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_12.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_11.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_10.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_9.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Engine/Transient.World_4:PersistentLevel.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_8.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_7.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_5.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_4.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_3.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_2.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_14.Model_7
+[2014.04.21-20.35.12:141][624]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_34.Model_7 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush.Model_7
+[2014.04.21-20.35.14:166][694]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.35.14:893][695]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.35.25:307][970]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.04.21-20.37.13:313][ 21]LogSavePackage: Save=825.252075ms
+[2014.04.21-20.37.13:313][ 21]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto536E318994D57682D30F5A8B17AD9DA0B.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto5.umap'
+[2014.04.21-20.37.13:319][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 0.964
+[2014.04.21-20.37.13:319][ 21]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.964
+[2014.04.21-20.37.29:462][451]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.37.30:202][452]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.38.07:659][591]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.38.21:321][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2014.04.21-20.38.28:651][195]Cmd: TRANSACTION UNDO
+[2014.04.21-20.38.28:651][195]LogEditorTransaction: Undo Apply Material to Actor
+[2014.04.21-20.39.03:578][ 14]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.39.04:320][ 15]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.39.12:536][465]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.39.13:263][466]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.39.23:327][823]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.39.24:068][824]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.39.33:607][200]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.39.34:348][201]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.39.37:278][274]LogGeometryMode:Warning: Unable to find BoxBrush_7 Brush(s) in new BSP
+[2014.04.21-20.39.37:278][274]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2014.04.21-20.39.40:829][401]Cmd: MODE PLACEMENT
+[2014.04.21-20.41.11:182][624]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.04.21-20.41.19:350][930]LogActorFactory: Actor Factory created SM_GlassWindow
+[2014.04.21-20.41.21:298][  7]LogActorFactory: Actor Factory created SM_GlassWindow
+[2014.04.21-20.42.27:466][322]LogActorFactory: Actor Factory created Floor_400x400
+[2014.04.21-20.42.28:975][381]LogActorFactory: Actor Factory created Floor_400x400
+[2014.04.21-20.42.43:253][872]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.42.48:878][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2014.04.21-20.43.07:193][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2014.04.21-20.43.07:833][865]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.43.21:728][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x405)
+[2014.04.21-20.43.28:649][739]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2014.04.21-20.43.30:727][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x407)
+[2014.04.21-20.43.37:828][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.43.38:629][  3]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.44.15:897][ 73]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.04.21-20.44.19:040][203]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.04.21-20.44.21:477][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.44.29:782][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.44.40:021][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.44.41:325][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.44.44:126][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.44.45:519][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.44.48:705][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.45.18:763][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.45.20:834][513]Cmd: DELETE
+[2014.04.21-20.45.20:835][513]Cmd: ACTOR DELETE
+[2014.04.21-20.45.20:839][513]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.20:882][513]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2014.04.21-20.45.21:744][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x407)
+[2014.04.21-20.45.22:805][597]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x405)
+[2014.04.21-20.45.23:171][612]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x406)
+[2014.04.21-20.45.23:511][626]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x400)
+[2014.04.21-20.45.24:387][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x401)
+[2014.04.21-20.45.25:144][695]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x404)
+[2014.04.21-20.45.25:578][713]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x402)
+[2014.04.21-20.45.25:922][727]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x403)
+[2014.04.21-20.45.26:685][759]Cmd: DELETE
+[2014.04.21-20.45.26:685][759]Cmd: ACTOR DELETE
+[2014.04.21-20.45.26:690][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:693][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:697][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:701][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:704][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:708][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:712][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:716][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.45.26:755][759]LogEditorActor: Deleted 8 Actors (0.070 secs)
+[2014.04.21-20.45.30:014][887]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.04.21-20.45.30:229][887]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.30:984][888]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.34:633][ 19]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.35:373][ 20]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.36:566][ 56]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.37:298][ 57]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.40:723][197]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.40:747][198]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.45:975][406]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.45:999][407]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.51:654][641]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.51:678][642]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.45.55:310][753]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.45.56:050][754]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.46.02:322][919]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.04.21-20.46.05:950][ 79]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2014.04.21-20.46.09:277][204]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.46.10:020][205]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.47.00:610][848]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.21-20.47.15:644][337]LogSavePackage: Save=838.218079ms
+[2014.04.21-20.47.15:644][337]LogSavePackage: Moving 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved//xcz_Auto6EA30D1664C929DE73FE18F83328A05E4.tmp' to 'C:/Users/Ikekudeyg/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/xcz_Auto6.umap'
+[2014.04.21-20.47.15:666][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/xcz' took 0.958
+[2014.04.21-20.47.15:666][337]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.958
+[2014.04.21-20.47.22:882][631]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.47.22:906][632]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.47.26:562][752]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.47.26:586][753]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.47.35:948][  3]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.47.35:972][  4]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.47.41:297][175]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.47.41:320][176]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.47.51:972][533]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.47.51:997][534]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.06:420][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.06:447][918]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.19:528][373]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.19:553][374]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.47:580][109]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.47:605][110]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.51:914][248]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.51:939][249]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.55:748][376]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.55:772][377]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.48.58:538][445]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.48.59:261][446]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.00:370][475]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.49.01:100][476]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.04:766][608]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.49.05:514][609]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.13:767][927]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.49.13:792][928]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.17:849][ 60]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.49.18:570][ 61]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.21:773][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.49.26:350][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.49.35:120][773]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.49.35:148][774]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.49.36:547][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.49.49:585][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.50.05:386][788]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.06:135][789]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.06:324][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2014.04.21-20.50.07:369][840]Cmd: DELETE
+[2014.04.21-20.50.07:369][840]Cmd: ACTOR DELETE
+[2014.04.21-20.50.07:373][840]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.04.21-20.50.07:421][840]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2014.04.21-20.50.09:309][924]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/xcz.xcz:PersistentLevel.BoxBrush_36.Model_9 or Model /Game/xcz.xcz:PersistentLevel.BoxBrush_44.Model_9
+[2014.04.21-20.50.10:392][957]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.11:134][958]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.14:163][139]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.14:903][140]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.17:571][247]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.17:595][248]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.24:298][508]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.24:321][509]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.27:931][623]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.28:672][624]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.30:133][673]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.30:886][674]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.50.34:082][801]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.50.34:833][802]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.51.02:738][712]Cmd: DELETE
+[2014.04.21-20.51.02:738][712]Cmd: ACTOR DELETE
+[2014.04.21-20.51.02:742][712]LogEditorActor: Deleted Actor: Brush
+[2014.04.21-20.51.02:823][712]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2014.04.21-20.51.03:024][712]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.51.03:759][713]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.51.04:213][729]Cmd: DELETE
+[2014.04.21-20.51.04:213][729]Cmd: ACTOR DELETE
+[2014.04.21-20.51.04:218][729]LogEditorActor: Deleted Actor: Brush
+[2014.04.21-20.51.04:293][729]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2014.04.21-20.51.04:485][729]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.51.05:216][730]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.51.05:282][730]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2014.04.21-20.51.05:610][743]Cmd: DELETE
+[2014.04.21-20.51.05:610][743]Cmd: ACTOR DELETE
+[2014.04.21-20.51.05:612][743]LogEditorActor: Deleted Actor: Landscape
+[2014.04.21-20.51.05:882][743]LogEditorActor: Deleted 1 Actors (0.271 secs)
+[2014.04.21-20.51.05:902][744]Cmd: UpdateLandscapeEditorData
+[2014.04.21-20.51.07:426][832]Cmd: TRANSACTION UNDO
+[2014.04.21-20.51.07:426][832]LogEditorTransaction: Undo Select Surfaces
+[2014.04.21-20.51.07:908][843]Cmd: TRANSACTION UNDO
+[2014.04.21-20.51.07:908][843]LogEditorTransaction: Undo Select Brush from Surface
+[2014.04.21-20.51.10:481][967]Cmd: DELETE
+[2014.04.21-20.51.10:481][967]Cmd: ACTOR DELETE
+[2014.04.21-20.51.10:482][967]LogEditorActor: Deleted Actor: Brush
+[2014.04.21-20.51.10:556][967]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2014.04.21-20.51.10:578][967]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.51.11:637][ 29]Cmd: TRANSACTION UNDO
+[2014.04.21-20.51.11:637][ 29]LogEditorTransaction: Undo Delete Actors
+[2014.04.21-20.51.12:058][ 29]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.04.21-20.51.12:441][ 36]Cmd: TRANSACTION UNDO
+[2014.04.21-20.51.12:441][ 36]LogEditorTransaction: Undo Select Surfaces
+[2014.04.21-20.51.13:230][ 69]Cmd: TRANSACTION UNDO
+[2014.04.21-20.51.13:230][ 69]LogEditorTransaction: Undo Select Brush from Surface
+[2014.04.21-20.51.14:349][113]Cmd: TRANSACTIO
